@@ -1,0 +1,3145 @@
+{
+  "name": "AES LUAT corpus-derived benchmark",
+  "version": "1.0.0-corpus-2026-09-24",
+  "description": "90 câu sinh có kiểm soát từ data/chunks: 46 single-hop, 28 multi-hop, 8 out-of-scope, 8 temporal-aware. Gold answer giữ nguyên văn corpus. Corpus SHA-256: 49d8e8edd65c70b4c581c4d01cd0cf06b5971ad0ab6d15cb98271f53e200f2d2.",
+  "created_by": "Deterministic corpus-derived generator",
+  "reviewed_by": "Chưa duyệt chuyên gia pháp lý",
+  "cases": [
+    {
+      "id": "SINGLE_001",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “QUY ĐỊNH VỀ ĐẦU TƯ RA NƯỚC NGOÀI” (103-2026-ND-CP), Điều 39. Nhiệm vụ, quyền hạn của các cơ quan > Khoản 5 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 39. Nhiệm vụ, quyền hạn của các cơ quan > Khoản 5: Nhiệm vụ, quyền hạn của Bộ Nội vụ a) Xây dựng, ban hành theo thẩm quyền hoặc trình cấp có thẩm quyền ban hành các quy định của pháp luật, các cơ chế, chính sách về quản lý, sử dụng lao động Việt Nam liên quan đến hoạt động đầu tư ra nước ngoài; b) Tham gia ý kiến về các vấn đề thuộc lĩnh vực lao động liên quan đến hoạt động đầu tư ra nước ngoài khi có yêu cầu của Thủ tướng Chính phủ hoặc đề nghị của Bộ Tài chính, Ngân hàng Nhà nước Việt Nam; c) Kiểm tra, thanh tra, giám sát theo thẩm quyền đối với việc đưa lao động Việt Nam ra nước ngoài làm việc tại các dự án đầu tư ở nước ngoài; d) Thực hiện chế độ báo cáo về tình hình đưa lao động Việt Nam ra nước ngoài làm việc tại các dự án đầu tư ở nước ngoài theo quy định tại Điều 48 Luật Đầu tư.",
+      "gold_citation_groups": [
+        [
+          "103-2026-ND-CP#d39.k5"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Nhiệm vụ, quyền hạn của Bộ Nội vụ a) Xây dựng, ban hành theo thẩm quyền hoặc trình cấp có thẩm quyền ban hành các quy định của pháp luật, các cơ chế, chính sách về quản lý, sử dụng lao động Việt Nam liên quan đến hoạt…",
+            "any_of": [
+              "Nhiệm vụ, quyền hạn của Bộ Nội vụ a) Xây dựng, ban hành theo"
+            ],
+            "patterns": [
+              "(?is)nhiệm.*quyền.*dựng.*hành.*thẩm"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_002",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “Quy định về đầu tư xây dựng, quản lý khai thác cảng cạn” (106-2026-ND-CP), Chương II – QUẢN LÝ ĐẦU TƯ XÂY DỰNG, KHAI THÁC CẢNG CẠN > Điều 13. Công bố mở cảng cạn > Khoản 2 > Điểm c quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương II – QUẢN LÝ ĐẦU TƯ XÂY DỰNG, KHAI THÁC CẢNG CẠN > Điều 13. Công bố mở cảng cạn > Khoản 2 > Điểm c: Hồ sơ công bố mở cảng cạn, bao gồm: c) Bản sao hoặc bản sao điện tử các giấy tờ hợp pháp chứng minh về quyền sử dụng đất theo quy định. Tổ chức, cá nhân không phải nộp các giấy tờ hợp pháp chứng minh về quyền sử dụng đất khi cơ quan giải quyết thủ tục hành chính khai thác được thông tin trên Cơ sở dữ liệu quốc gia;",
+      "gold_citation_groups": [
+        [
+          "106-2026-ND-CP#d13.k2.pc"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Hồ sơ công bố mở cảng cạn, bao gồm: c) Bản sao hoặc bản sao điện tử các giấy tờ hợp pháp chứng minh về quyền sử dụng đất theo quy định. Tổ chức, cá nhân không phải nộp các giấy tờ hợp pháp chứng minh về quyền sử dụng…",
+            "any_of": [
+              "Hồ sơ công bố mở cảng cạn, bao gồm: c) Bản sao hoặc bản"
+            ],
+            "patterns": [
+              "(?is)công.*cảng.*điện.*giấy.*chứng"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_003",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “QUY ĐỊNH CHI TIẾT VỀ VIỆC XỬ LÝ VƯỚNG MẮC CỦA DỰ ÁN BOT GIAO THÔNG” (122-2026-ND-CP), Chương II – XỬ LÝ VƯỚNG MẮC GIẢM DOANH THU CỦA CÁC DỰ ÁN BOT TRONG LĨNH VỰC ĐƯỜNG BỘ > Điều 8. Trình tự thực hiện chia sẻ phần giảm doanh thu > Khoản 5 > Điểm c quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương II – XỬ LÝ VƯỚNG MẮC GIẢM DOANH THU CỦA CÁC DỰ ÁN BOT TRONG LĨNH VỰC ĐƯỜNG BỘ > Điều 8. Trình tự thực hiện chia sẻ phần giảm doanh thu > Khoản 5 > Điểm c: Trong vòng 10 ngày kể từ ngày các bên ký kết biên bản thống nhất quy định tại khoản 4 Điều này, cơ quan ký kết hợp đồng đề nghị Kiểm toán Nhà nước thực hiện kiểm toán phần giảm doanh thu và số tiền Nhà nước chia sẻ phần giảm doanh thu. Hồ sơ bao gồm: c) Biên bản thống nhất tại điểm a khoản 4 Điều này;",
+      "gold_citation_groups": [
+        [
+          "122-2026-ND-CP#d8.k5.pc"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Trong vòng 10 ngày kể từ ngày các bên ký kết biên bản thống nhất quy định tại khoản 4 Điều này, cơ quan ký kết hợp đồng đề nghị Kiểm toán Nhà nước thực hiện kiểm toán phần giảm doanh thu và số tiền Nhà nước chia sẻ phần…",
+            "any_of": [
+              "Trong vòng 10 ngày kể từ ngày các bên ký kết biên bản thống"
+            ],
+            "patterns": [
+              "(?is)vòng.*ngày.*biên.*thống.*nhất"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_004",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “VỀ QUẢN LÝ HOẠT ĐỘNG KINH DOANH THEO PHƯƠNG THỨC ĐA CẤP” (137-2026-ND-CP), Chương VI – KÝ QUỸ > Điều 53. Xử lý khoản tiền đã ký quỹ > Khoản 2 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương VI – **KÝ QUỸ** > Điều 53. Xử lý khoản tiền đã ký quỹ > Khoản 2: Trình tự, thủ tục sử dụng tiền ký quỹ đối với trường hợp quy định tại điểm a khoản 1 Điều này: a) Trường hợp doanh nghiệp chấm dứt hoạt động bán hàng đa cấp nhưng không chấp hành quyết định xử phạt vi phạm trong hoạt động bán hàng đa cấp đã có hiệu lực của cơ quan có thẩm quyền, cơ quan ban hành quyết định xử phạt đó gửi văn bản đề nghị Bộ Công Thương ban hành văn bản yêu cầu ngân hàng nơi doanh nghiệp ký quỹ trích khoản tiền ký quỹ để thực hiện quyết định xử phạt; b) Trong thời hạn 10 ngày làm việc kể từ ngày nhận được văn bản đề nghị, Bộ Công Thương ban hành văn bản yêu cầu ngân hàng nơi doanh nghiệp ký quỹ trích khoản tiền ký quỹ để thực hiện quyết định xử phạt.",
+      "gold_citation_groups": [
+        [
+          "137-2026-ND-CP#d53.k2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Trình tự, thủ tục sử dụng tiền ký quỹ đối với trường hợp quy định tại điểm a khoản 1 Điều này: a) Trường hợp doanh nghiệp chấm dứt hoạt động bán hàng đa cấp nhưng không chấp hành quyết định xử phạt vi phạm trong hoạt…",
+            "any_of": [
+              "Trình tự, thủ tục sử dụng tiền ký quỹ đối với trường hợp quy"
+            ],
+            "patterns": [
+              "(?is)trình.*dụng.*tiền.*điểm.*doanh"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_005",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản 143-2025-QH15, Điều 3. Giải thích từ ngữ > Khoản 15 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 3. Giải thích từ ngữ > Khoản 15: Khu chế xuất là khu công nghiệp chuyên sản xuất hàng xuất khẩu, cung ứng dịch vụ cho sản xuất hàng xuất khẩu và hoạt động xuất khẩu.",
+      "gold_citation_groups": [
+        [
+          "143-2025-QH15#d3.k15"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Khu chế xuất là khu công nghiệp chuyên sản xuất hàng xuất khẩu, cung ứng dịch vụ cho sản xuất hàng xuất khẩu và hoạt động xuất khẩu",
+            "any_of": [
+              "Khu chế xuất là khu công nghiệp chuyên sản xuất hàng xuất khẩu, cung"
+            ],
+            "patterns": [
+              "(?is)xuất.*công.*nghiệp.*chuyên.*hàng"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_006",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA CÁC NGHỊ ĐỊNH QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP THI HÀNH LUẬT ĐẤU THẦU” (17-2025-ND-CP), Điều 44a. Trường hợp và thẩm quyền quyết định áp dụng lựa chọn nhà đầu tư trong trường hợp > Khoản 1 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 44a. Trường hợp và thẩm quyền quyết định áp dụng lựa chọn nhà đầu tư trong trường hợp > Khoản 1: Dự án có yêu cầu bảo đảm lợi ích quốc gia, thực hiện nhiệm vụ chính trị của quốc gia theo chỉ đạo tại Nghị quyết, Kết luận, văn bản chỉ đạo của Ban Chấp hành Trung ương Đảng, Bộ Chính trị, Ban Bí thư, lãnh đạo chủ chốt của Đảng và Nhà nước về việc thực hiện dự án mà nếu áp dụng một trong các hình thức lựa chọn nhà đầu tư quy định tại khoản 1 và khoản 2 Điều 34 của Luật Đấu thầu thì không thể thực hiện được theo yêu cầu.",
+      "gold_citation_groups": [
+        [
+          "17-2025-ND-CP#d44a.k1"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Dự án có yêu cầu bảo đảm lợi ích quốc gia, thực hiện nhiệm vụ chính trị của quốc gia theo chỉ đạo tại Nghị quyết, Kết luận, văn bản chỉ đạo của Ban Chấp hành Trung ương Đảng, Bộ Chính trị, Ban Bí thư, lãnh đạo chủ chốt…",
+            "any_of": [
+              "Dự án có yêu cầu bảo đảm lợi ích quốc gia, thực hiện nhiệm"
+            ],
+            "patterns": [
+              "(?is)quốc.*hiện.*nhiệm.*nghị.*quyết"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_007",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “QUY ĐỊNH VỀ ĐIỀU KIỆN NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG, HỆ THỐNG THÔNG TIN, CƠ SỞ DỮ LIỆU QUỐC GIA VỀ HOẠT ĐỘNG XÂY DỰNG” (212-2026-ND-CP), Chương I – NHỮNG QUY ĐỊNH CHUNG > Điều 3. Giải thích từ ngữ > Khoản 9 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương I – **NHỮNG QUY ĐỊNH CHUNG** > Điều 3. Giải thích từ ngữ > Khoản 9: Bộ trưởng Bộ Xây dựng quy định chi tiết khoản 7, khoản 8 Điều này về cơ quan nhà nước có thẩm quyền rà soát, kiểm tra và cập nhật dữ liệu, thông tin bảo đảm đầy đủ, chính xác vào hệ thống.",
+      "gold_citation_groups": [
+        [
+          "212-2026-ND-CP#d3.k9-2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Bộ trưởng Bộ Xây dựng quy định chi tiết khoản 7, khoản 8 Điều này về cơ quan nhà nước có thẩm quyền rà soát, kiểm tra và cập nhật dữ liệu, thông tin bảo đảm đầy đủ, chính xác vào hệ thống",
+            "any_of": [
+              "Bộ trưởng Bộ Xây dựng quy định chi tiết khoản 7, khoản 8 Điều"
+            ],
+            "patterns": [
+              "(?is)trưởng.*dựng.*tiết.*quan.*nước"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_008",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản 241-2026-ND-CP, Điều 26. Điều khoản thi hành > Khoản 2 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 26. Điều khoản thi hành > Khoản 2: Bãi bỏ các khoản 2, khoản 3, khoản 4, khoản 5, khoản 6, khoản 7 Điều 23 của Nghị định số 140/2025/NĐ-CP.",
+      "gold_citation_groups": [
+        [
+          "241-2026-ND-CP#d26.k2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Bãi bỏ các khoản 2, khoản 3, khoản 4, khoản 5, khoản 6, khoản 7 Điều 23 của Nghị định số 140/2025/NĐ-CP",
+            "any_of": [
+              "Bãi bỏ các khoản 2, khoản 3, khoản 4, khoản 5, khoản 6, khoản"
+            ],
+            "patterns": []
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_009",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản 272-2026-ND-CP, Điều 3. Nội dung báo cáo và thành phần hồ sơ đề nghị điều chỉnh cập > Khoản 2 > Điểm a quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 3. Nội dung báo cáo và thành phần hồ sơ đề nghị điều chỉnh cập > Khoản 2 > Điểm a: Báo cáo điều chỉnh cập nhật phương án phát triển mạng lưới cấp điện trong quy hoạch tỉnh, bao gồm những nội dung chính sau: a) Cơ sở pháp lý và sự cần thiết điều chỉnh cập nhật quy hoạch;",
+      "gold_citation_groups": [
+        [
+          "272-2026-ND-CP#d3.k2.pa"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Báo cáo điều chỉnh cập nhật phương án phát triển mạng lưới cấp điện trong quy hoạch tỉnh, bao gồm những nội dung chính sau: a) Cơ sở pháp lý và sự cần thiết điều chỉnh cập nhật quy hoạch",
+            "any_of": [
+              "Báo cáo điều chỉnh cập nhật phương án phát triển mạng lưới cấp điện"
+            ],
+            "patterns": [
+              "(?is)chỉnh.*nhật.*phương.*phát.*triển"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_010",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “ĐẦU TƯ CÔNG” (39-2019-QH14), Chương V – NHIỆM VỤ, QUYỀN HẠN, TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN TRONG HOẠT ĐỘNG ĐẦU TƯ CÔNG > Điều 92. Quyền và trách nhiệm của cơ quan, tổ chức, cá nhân liên… [Điều 92, Khoản 1] quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương V – NHIỆM VỤ, QUYỀN HẠN, TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN TRONG HOẠT ĐỘNG ĐẦU TƯ CÔNG > Điều 92. Quyền và trách nhiệm của cơ quan, tổ chức, cá nhân liên quan đến tư vấn thiết kế > Khoản 1: Tổ chức tư vấn thiết kế có quyền yêu cầu chủ chương trình, chủ đầu tư cung cấp thông tin, tài liệu liên quan đến việc thiết kế chương trình, dự án.",
+      "gold_citation_groups": [
+        [
+          "39-2019-QH14#d92.k1"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Tổ chức tư vấn thiết kế có quyền yêu cầu chủ chương trình, chủ đầu tư cung cấp thông tin, tài liệu liên quan đến việc thiết kế chương trình, dự án",
+            "any_of": [
+              "Tổ chức tư vấn thiết kế có quyền yêu cầu chủ chương trình, chủ"
+            ],
+            "patterns": [
+              "(?is)chức.*thiết.*quyền.*chương.*trình"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_011",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản 57-2024-QH15, Điều 5. Điều khoản thi hành > Khoản 3 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 5. Điều khoản thi hành > Khoản 3: Việc thực hiện hợp đồng BT thanh toán bằng quỹ đất và hợp đồng BT thanh toán bằng ngân sách nhà nước quy định tại điểm b khoản 12 Điều 3 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025.",
+      "gold_citation_groups": [
+        [
+          "57-2024-QH15#d5.k3"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Việc thực hiện hợp đồng BT thanh toán bằng quỹ đất và hợp đồng BT thanh toán bằng ngân sách nhà nước quy định tại điểm b khoản 12 Điều 3 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025",
+            "any_of": [
+              "Việc thực hiện hợp đồng BT thanh toán bằng quỹ đất và hợp đồng"
+            ],
+            "patterns": [
+              "(?is)hiện.*đồng.*thanh.*toán.*ngân"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_012",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “ĐẦU TƯ CÔNG” (58-2024-QH15), Chương II – CHỦ TRƯƠNG ĐẦU TƯ VÀ QUYẾT ĐỊNH ĐẦU TƯ CHƯƠNG TRÌNH, DỰ ÁN ĐẦU TƯ CÔNG Mục 1. LẬP, THẨM ĐỊNH, QUYẾT ĐỊNH CHỦ TRƯƠNG ĐẦU TƯ > Điều 19. Điều kiện quyết định chủ… [Điều 19, Khoản 5] quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương II – CHỦ TRƯƠNG ĐẦU TƯ VÀ QUYẾT ĐỊNH ĐẦU TƯ CHƯƠNG TRÌNH, DỰ ÁN ĐẦU TƯ CÔNG Mục 1. LẬP, THẨM ĐỊNH, QUYẾT ĐỊNH CHỦ TRƯƠNG ĐẦU TƯ > Điều 19. Điều kiện quyết định chủ trương đầu tư chương trình, dự án > Khoản 5: Bảo đảm hiệu quả kinh tế - xã hội, quốc phòng, an ninh và phát triển bền vững.",
+      "gold_citation_groups": [
+        [
+          "58-2024-QH15#d19.k5"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Bảo đảm hiệu quả kinh tế - xã hội, quốc phòng, an ninh và phát triển bền vững",
+            "any_of": [
+              "Bảo đảm hiệu quả kinh tế - xã hội, quốc phòng, an ninh và"
+            ],
+            "patterns": [
+              "(?is)hiệu.*kinh.*quốc.*phòng.*ninh"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_013",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “QUẢN LÝ VÀ ĐẦU TƯ VỐN NHÀ NƯỚC TẠI DOANH NGHIỆP” (68-2025-QH15), Chương VI – GIÁM SÁT, KIỂM TRA, THANH TRA, ĐÁNH GIÁ HIỆU QUẢ HOẠT ĐỘNG QUẢN LÝ VÀ ĐẦU TƯ VỐN NHÀ NƯỚC TẠI DOANH NGHIỆP Mục 1. GIÁM SÁT, KIỂM TRA, THANH TRA HOẠT ĐỘNG QUẢN… [Điều 45, Khoản 1] quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương VI – GIÁM SÁT, KIỂM TRA, THANH TRA, ĐÁNH GIÁ HIỆU QUẢ HOẠT ĐỘNG QUẢN LÝ VÀ ĐẦU TƯ VỐN NHÀ NƯỚC TẠI DOANH NGHIỆP Mục 1. GIÁM SÁT, KIỂM TRA, THANH TRA HOẠT ĐỘNG QUẢN LÝ VÀ ĐẦU TƯ VỐN NHÀ NƯỚC TẠI DOANH NGHIỆP > Điều 45. Giám sát của Quốc hội > Khoản 1: Quốc hội, Ủy ban thường vụ Quốc hội, Hội đồng dân tộc, các Ủy ban của Quốc hội, Đoàn đại biểu Quốc hội, đại biểu Quốc hội giám sát hoạt động quản lý và đầu tư vốn nhà nước tại doanh nghiệp theo quy định của pháp luật về hoạt động giám sát của Quốc hội.",
+      "gold_citation_groups": [
+        [
+          "68-2025-QH15#d45.k1"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Quốc hội, Ủy ban thường vụ Quốc hội, Hội đồng dân tộc, các Ủy ban của Quốc hội, Đoàn đại biểu Quốc hội, đại biểu Quốc hội giám sát hoạt động quản lý và đầu tư vốn nhà nước tại doanh nghiệp theo quy định của pháp luật về…",
+            "any_of": [
+              "Quốc hội, Ủy ban thường vụ Quốc hội, Hội đồng dân tộc, các Ủy"
+            ],
+            "patterns": [
+              "(?is)quốc.*thường.*đồng.*đoàn.*biểu"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_014",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “QUẢN LÝ, SỬ DỤNG VỐN NHÀ NƯỚC ĐẦU TƯ VÀO SẢN XUẤT, KINH DOANH TẠI DOANH NGHIỆP” (69-2014-QH13), Chương III – QUẢN LÝ, SỬ DỤNG VỐN, TÀI SẢN TẠI DOANH NGHIỆP DO NHÀ NƯỚC NẮM GIỮ 100% VỐN ĐIỀU LỆ > Điều 29. Đầu tư ra nước ngoài của doanh nghiệp > Khoản 2 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương III – QUẢN LÝ, SỬ DỤNG VỐN, TÀI SẢN TẠI DOANH NGHIỆP DO NHÀ NƯỚC NẮM GIỮ 100% VỐN ĐIỀU LỆ > Điều 29. Đầu tư ra nước ngoài của doanh nghiệp > Khoản 2: Hội đồng thành viên hoặc Chủ tịch công ty báo cáo cơ quan đại diện chủ sở hữu xem xét, quyết định chủ trương dự án đầu tư ra nước ngoài. Trường hợp dự án đầu tư ra nước ngoài thuộc thẩm quyền quyết định chủ trương đầu tư của Quốc hội thì Thủ tướng Chính phủ quyết định đầu tư sau khi Quốc hội quyết định chủ trương đầu tư; trường hợp dự án đầu tư ra nước ngoài thuộc thẩm quyền quyết định chủ trương đầu tư của Thủ tướng Chính phủ thì cơ quan đại diện chủ sở hữu quyết định đầu tư sau khi Thủ tướng Chính phủ quyết định chủ trương đầu tư.",
+      "gold_citation_groups": [
+        [
+          "69-2014-QH13#d29.k2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Hội đồng thành viên hoặc Chủ tịch công ty báo cáo cơ quan đại diện chủ sở hữu xem xét, quyết định chủ trương dự án đầu tư ra nước ngoài. Trường hợp dự án đầu tư ra nước ngoài thuộc thẩm quyền quyết định chủ trương đầu…",
+            "any_of": [
+              "Hội đồng thành viên hoặc Chủ tịch công ty báo cáo cơ quan đại"
+            ],
+            "patterns": [
+              "(?is)đồng.*thành.*viên.*tịch.*công"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_015",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản 89-2026-ND-CP, Chương II – ĐIỀU KIỆN KINH DOANH DỊCH VỤ KIỂM ĐỊNH XE CƠ GIỚI > Điều 6. Điều kiện về nhân lực quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương II – ĐIỀU KIỆN KINH DOANH DỊCH VỤ KIỂM ĐỊNH XE CƠ GIỚI > Điều 6. Điều kiện về nhân lực: Có tối thiểu 02 đăng kiểm viên thực hiện công việc chuyên môn về kiểm định xe cơ giới, trong đó có tối thiểu: 01 lãnh đạo cơ sở đăng kiểm là đăng kiểm viên và 01 lãnh đạo bộ phận kiểm định là đăng kiểm viên có kinh nghiệm thực hiện công tác kiểm định đủ 60 tháng. Mục 2 ĐIỀU KIỆN ĐỐI VỚI CƠ SỞ KIỂM ĐỊNH KHÍ THẢI",
+      "gold_citation_groups": [
+        [
+          "89-2026-ND-CP#d6"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Có tối thiểu 02 đăng kiểm viên thực hiện công việc chuyên môn về kiểm định xe cơ giới, trong đó có tối thiểu: 01 lãnh đạo cơ sở đăng kiểm là đăng kiểm viên và 01 lãnh đạo bộ phận kiểm định là đăng kiểm viên có kinh…",
+            "any_of": [
+              "Có tối thiểu 02 đăng kiểm viên thực hiện công việc chuyên môn về"
+            ],
+            "patterns": [
+              "(?is)thiểu.*đăng.*kiểm.*viên.*hiện"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_016",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản 96-2026-ND-CP, Điều 111. Hiệu lực thi hành > Khoản 2 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 111. Hiệu lực thi hành > Khoản 2: Điều 11 và 12 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026.",
+      "gold_citation_groups": [
+        [
+          "96-2026-ND-CP#d111.k2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Điều 11 và 12 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026",
+            "any_of": [
+              "Điều 11 và 12 của Nghị định này có hiệu lực thi hành từ"
+            ],
+            "patterns": [
+              "(?is)nghị.*hiệu.*hành.*ngày.*tháng"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_017",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản HIENPHAP2013, Chương II – QUYỀN CON NGƯỜI, QUYỀN VÀ NGHĨA VỤ CƠ BẢN CỦA CÔNG DÂN > Điều 26 > Khoản 2 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương II – QUYỀN CON NGƯỜI, QUYỀN VÀ NGHĨA VỤ CƠ BẢN CỦA CÔNG DÂN > Điều 26 > Khoản 2: Nhà nước, xã hội và gia đình tạo điều kiện để phụ nữ phát triển toàn diện, phát huy vai trò của mình trong xã hội.",
+      "gold_citation_groups": [
+        [
+          "HIENPHAP2013#d26.k2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Nhà nước, xã hội và gia đình tạo điều kiện để phụ nữ phát triển toàn diện, phát huy vai trò của mình trong xã hội",
+            "any_of": [
+              "Nhà nước, xã hội và gia đình tạo điều kiện để phụ nữ phát"
+            ],
+            "patterns": [
+              "(?is)nước.*đình.*kiện.*phát.*triển"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_018",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ” (VANBANGOC_64.SIGNED), Điều 74. Lập kế hoạch vốn đầu tư công sử dụng trong dự án PPP > Khoản 4 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 74. Lập kế hoạch vốn đầu tư công sử dụng trong dự án PPP > Khoản 4: Trường hợp dự án PPP áp dụng loại hợp đồng BTL, hợp đồng BLT sử dụng vốn đầu tư công để thanh toán cho doanh nghiệp dự án PPP, việc tổng hợp vốn đầu tư công trong kế hoạch đầu tư công trung hạn và hằng năm thực hiện theo quy định tại khoản 1 và khoản 2 Điều này. Căn cứ thời hạn hợp đồng dự án PPP, phần vốn đầu tư công được tiếp tục bố trí trong các kỳ trung hạn tiếp theo.",
+      "gold_citation_groups": [
+        [
+          "VANBANGOC_64.SIGNED#d74.k4"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Trường hợp dự án PPP áp dụng loại hợp đồng BTL, hợp đồng BLT sử dụng vốn đầu tư công để thanh toán cho doanh nghiệp dự án PPP, việc tổng hợp vốn đầu tư công trong kế hoạch đầu tư công trung hạn và hằng năm thực hiện…",
+            "any_of": [
+              "Trường hợp dự án PPP áp dụng loại hợp đồng BTL, hợp đồng BLT"
+            ],
+            "patterns": [
+              "(?is)dụng.*loại.*đồng.*công.*thanh"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_019",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “QUY ĐỊNH VỀ ĐẦU TƯ RA NƯỚC NGOÀI” (103-2026-ND-CP), Điều 34. Chuyển lợi nhuận về nước > Khoản 4 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 34. Chuyển lợi nhuận về nước > Khoản 4: Trường hợp quá thời hạn quy định tại khoản 1 Điều này mà chưa chuyển lợi nhuận về nước và không thông báo hoặc trường hợp quá thời hạn được kéo dài quy định tại khoản 3 Điều này mà nhà đầu tư chưa chuyển lợi nhuận về nước thì bị xử phạt vi phạm hành chính theo quy định của pháp luật.",
+      "gold_citation_groups": [
+        [
+          "103-2026-ND-CP#d34.k4"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Trường hợp quá thời hạn quy định tại khoản 1 Điều này mà chưa chuyển lợi nhuận về nước và không thông báo hoặc trường hợp quá thời hạn được kéo dài quy định tại khoản 3 Điều này mà nhà đầu tư chưa chuyển lợi nhuận về…",
+            "any_of": [
+              "Trường hợp quá thời hạn quy định tại khoản 1 Điều này mà chưa"
+            ],
+            "patterns": [
+              "(?is)thời.*chưa.*chuyển.*nhuận.*nước"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_020",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “Quy định về đầu tư xây dựng, quản lý khai thác cảng cạn” (106-2026-ND-CP), Chương I – NHỮNG QUY ĐỊNH CHUNG > Điều 1. Phạm vi điều chỉnh quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương I – **NHỮNG QUY ĐỊNH CHUNG** > Điều 1. Phạm vi điều chỉnh: Nghị định này quy định chi tiết về đầu tư xây dựng, quản lý khai thác cảng cạn.",
+      "gold_citation_groups": [
+        [
+          "106-2026-ND-CP#d1"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Nghị định này quy định chi tiết về đầu tư xây dựng, quản lý khai thác cảng cạn",
+            "any_of": [
+              "Nghị định này quy định chi tiết về đầu tư xây dựng, quản lý"
+            ],
+            "patterns": [
+              "(?is)nghị.*tiết.*dựng.*quản.*khai"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_021",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “QUY ĐỊNH CHI TIẾT VỀ VIỆC XỬ LÝ VƯỚNG MẮC CỦA DỰ ÁN BOT GIAO THÔNG” (122-2026-ND-CP), Chương II – XỬ LÝ VƯỚNG MẮC GIẢM DOANH THU CỦA CÁC DỰ ÁN BOT TRONG LĨNH VỰC ĐƯỜNG BỘ > Điều 8. Trình tự thực hiện chia sẻ phần giảm doanh thu > Khoản 8 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương II – XỬ LÝ VƯỚNG MẮC GIẢM DOANH THU CỦA CÁC DỰ ÁN BOT TRONG LĨNH VỰC ĐƯỜNG BỘ > Điều 8. Trình tự thực hiện chia sẻ phần giảm doanh thu > Khoản 8: Cơ quan ký kết hợp đồng phối hợp với nhà đầu tư, doanh nghiệp dự án thực hiện điều chỉnh hợp đồng dự án; nhà đầu tư, doanh nghiệp dự án phối hợp với bên cho vay thực hiện điều chỉnh hợp đồng tín dụng.",
+      "gold_citation_groups": [
+        [
+          "122-2026-ND-CP#d8.k8"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Cơ quan ký kết hợp đồng phối hợp với nhà đầu tư, doanh nghiệp dự án thực hiện điều chỉnh hợp đồng dự án; nhà đầu tư, doanh nghiệp dự án phối hợp với bên cho vay thực hiện điều chỉnh hợp đồng tín dụng",
+            "any_of": [
+              "Cơ quan ký kết hợp đồng phối hợp với nhà đầu tư, doanh nghiệp"
+            ],
+            "patterns": [
+              "(?is)quan.*đồng.*phối.*doanh.*nghiệp"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_022",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “VỀ QUẢN LÝ HOẠT ĐỘNG KINH DOANH THEO PHƯƠNG THỨC ĐA CẤP” (137-2026-ND-CP), Chương I – NHỮNG QUY ĐỊNH CHUNG > Điều 4. Đối tượng kinh doanh theo phương thức đa cấp > Khoản 1 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương I – **NHỮNG QUY ĐỊNH CHUNG** > Điều 4. Đối tượng kinh doanh theo phương thức đa cấp > Khoản 1: Hoạt động kinh doanh theo phương thức đa cấp chỉ được thực hiện đối với hàng hóa. Mọi hoạt động kinh doanh theo phương thức đa cấp với đối tượng không phải là hàng hóa đều bị cấm, trừ trường hợp pháp luật có quy định khác.",
+      "gold_citation_groups": [
+        [
+          "137-2026-ND-CP#d4.k1"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Hoạt động kinh doanh theo phương thức đa cấp chỉ được thực hiện đối với hàng hóa. Mọi hoạt động kinh doanh theo phương thức đa cấp với đối tượng không phải là hàng hóa đều bị cấm, trừ trường hợp pháp luật có quy định…",
+            "any_of": [
+              "Hoạt động kinh doanh theo phương thức đa cấp chỉ được thực hiện đối"
+            ],
+            "patterns": [
+              "(?is)hoạt.*động.*kinh.*doanh.*phương"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_023",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản 143-2025-QH15, Điều 32. Xác định giá trị vốn đầu tư; giám định giá trị vốn đầu tư; giám > Khoản 4 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 32. Xác định giá trị vốn đầu tư; giám định giá trị vốn đầu tư; giám > Khoản 4: Nhà đầu tư phải chịu chi phí giám định trong trường hợp kết quả giám định dẫn đến làm tăng nghĩa vụ thuế đối với Nhà nước.",
+      "gold_citation_groups": [
+        [
+          "143-2025-QH15#d32.k4"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Nhà đầu tư phải chịu chi phí giám định trong trường hợp kết quả giám định dẫn đến làm tăng nghĩa vụ thuế đối với Nhà nước",
+            "any_of": [
+              "Nhà đầu tư phải chịu chi phí giám định trong trường hợp kết quả"
+            ],
+            "patterns": [
+              "(?is)phải.*chịu.*giám.*tăng.*nghĩa"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_024",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA CÁC NGHỊ ĐỊNH QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP THI HÀNH LUẬT ĐẤU THẦU” (17-2025-ND-CP), Điều 2. Sửa đổi, bổ sung một số điều của Nghị định số 24/2024/NĐ-CP ngày 27 tháng 02 năm 2024 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Đấu… [Điều 2, Khoản 28] quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 2. Sửa đổi, bổ sung một số điều của Nghị định số 24/2024/NĐ-CP ngày 27 tháng 02 năm 2024 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu > Khoản 28: Sửa đổi, bổ sung điểm a khoản 2 Điều 128 như sau: “a) Căn cứ pháp lý để lập kế hoạch lựa chọn nhà thầu: Xem xét tính phù hợp, đầy đủ của cơ sở pháp lý của việc lập kế hoạch lựa chọn nhà thầu và những lưu ý cần thiết (nếu có). Đối với gói thầu đấu thầu trước, việc lập kế hoạch lựa chọn nhà thầu được thực hiện trước khi điều ước quốc tế, thỏa thuận vay nước ngoài được ký kết đối với dự án sử dụng vốn ODA, vốn vay ưu đãi nước ngoài hoặc trước khi dự án được phê duyệt đầu tư theo quy định tại Điều 42 của Luật Đấu thầu.”.",
+      "gold_citation_groups": [
+        [
+          "17-2025-ND-CP#d2.k28"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Sửa đổi, bổ sung điểm a khoản 2 Điều 128 như sau: “a) Căn cứ pháp lý để lập kế hoạch lựa chọn nhà thầu: Xem xét tính phù hợp, đầy đủ của cơ sở pháp lý của việc lập kế hoạch lựa chọn nhà thầu và những lưu ý cần thiết…",
+            "any_of": [
+              "Sửa đổi, bổ sung điểm a khoản 2 Điều 128 như sau: “a) Căn"
+            ],
+            "patterns": [
+              "(?is)sung.*điểm.*hoạch.*chọn.*thầu"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_025",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “QUY ĐỊNH VỀ ĐIỀU KIỆN NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG, HỆ THỐNG THÔNG TIN, CƠ SỞ DỮ LIỆU QUỐC GIA VỀ HOẠT ĐỘNG XÂY DỰNG” (212-2026-ND-CP), Chương IV – NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG Mục 1. ĐIỀU KIỆN NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG CỦA CÁ NHÂN > Điều 38. Điều kiện kinh nghiệm nghề nghiệp để hành nghề giám… [Điều 38, Khoản 1, Điểm c] quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương IV – NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG Mục 1. ĐIỀU KIỆN NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG CỦA CÁ NHÂN > Điều 38. Điều kiện kinh nghiệm nghề nghiệp để hành nghề giám đốc quản lý dự án đầu tư xây dựng và > Khoản 1 > Điểm c: Cá nhân đảm nhận chức danh giám đốc quản lý dự án đầu tư xây dựng phải có chuyên môn phù hợp theo quy định tại mục 5 Phụ lục I ban hành kèm theo Nghị định này và đáp ứng các điều kiện tương ứng với các hạng như sau: c) Hạng III: Có thời gian kinh nghiệm tham gia hoạt động xây dựng từ 02 năm trở lên đối với cá nhân có trình độ đại học; từ 03 năm trở lên đối với cá nhân có trình độ cao đẳng; đã tham gia quản lý dự án đầu tư xây dựng 01 từ cấp III trở lên hoặc 02 công trình cấp IV.",
+      "gold_citation_groups": [
+        [
+          "212-2026-ND-CP#d38.k1.pc"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Cá nhân đảm nhận chức danh giám đốc quản lý dự án đầu tư xây dựng phải có chuyên môn phù hợp theo quy định tại mục 5 Phụ lục I ban hành kèm theo Nghị định này và đáp ứng các điều kiện tương ứng với các hạng như sau: c)…",
+            "any_of": [
+              "Cá nhân đảm nhận chức danh giám đốc quản lý dự án đầu tư"
+            ],
+            "patterns": [
+              "(?is)nhân.*nhận.*chức.*danh.*giám"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_026",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản 241-2026-ND-CP, Điều 28. Điều khoản chuyển tiếp > Khoản 4 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 28. Điều khoản chuyển tiếp > Khoản 4: Đối với dự án mở rộng, nâng cấp đường cao tốc đã thỏa thuận giữa cơ quan ký kết hợp đồng với nhà đầu tư hiện hữu quy định tại Điều 46 và Điều 47 Nghị định số 165/2024/NĐ-CP, được thực hiện như sau: a) Trường hợp đã phê duyệt, phê duyệt điều chỉnh dự án trước ngày Nghị định này có hiệu lực thi hành thì thực hiện theo quyết định đã phê duyệt, việc triển khai các bước tiếp thực hiện theo quy định tại Nghị định này; b) Trước ngày Nghị định này có hiệu lực thi hành nhưng chưa phê duyệt dự án, chưa phê duyệt điều chỉnh dự án, trình tự, thủ tục và nội dung phê duyệt, phê duyệt điều chỉnh dự án và việc triển khai các bước tiếp thực hiện theo quy định tại Nghị định này. TM. CHÍNH PHỦ KT. THỦ TƯỚNG PHÓ THỦ TƯỚNG Phạm Gia Túc",
+      "gold_citation_groups": [
+        [
+          "241-2026-ND-CP#d28.k4"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Đối với dự án mở rộng, nâng cấp đường cao tốc đã thỏa thuận giữa cơ quan ký kết hợp đồng với nhà đầu tư hiện hữu quy định tại Điều 46 và Điều 47 Nghị định số 165/2024/NĐ-CP, được thực hiện như sau: a) Trường hợp đã phê…",
+            "any_of": [
+              "Đối với dự án mở rộng, nâng cấp đường cao tốc đã thỏa thuận"
+            ],
+            "patterns": [
+              "(?is)rộng.*nâng.*đường.*thỏa.*thuận"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_027",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản 272-2026-ND-CP, Điều 3. Nội dung báo cáo và thành phần hồ sơ đề nghị điều chỉnh cập > Khoản 3 > Điểm b quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 3. Nội dung báo cáo và thành phần hồ sơ đề nghị điều chỉnh cập > Khoản 3 > Điểm b: Thành phần hồ sơ đề nghị điều chỉnh cập nhật quy hoạch: b) Báo cáo điều chỉnh cập nhật quy hoạch quy định tại khoản 1, khoản 2 Điều này;",
+      "gold_citation_groups": [
+        [
+          "272-2026-ND-CP#d3.k3.pb"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Thành phần hồ sơ đề nghị điều chỉnh cập nhật quy hoạch: b) Báo cáo điều chỉnh cập nhật quy hoạch quy định tại khoản 1, khoản 2 Điều này",
+            "any_of": [
+              "Thành phần hồ sơ đề nghị điều chỉnh cập nhật quy hoạch: b) Báo"
+            ],
+            "patterns": [
+              "(?is)thành.*phần.*nghị.*chỉnh.*nhật"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_028",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “ĐẦU TƯ CÔNG” (39-2019-QH14), Chương II – CHỦ TRƯƠNG ĐẦU TƯ VÀ QUYẾT ĐỊNH ĐẦU TƯ CHƯƠNG TRÌNH, DỰ ÁN ĐẦU TƯ CÔNG Mục 1. LẬP, THẨM ĐỊNH, QUYẾT ĐỊNH CHỦ TRƯƠNG ĐẦU TƯ > Điều 22. Trình tự, thủ tục quyết… [Điều 22, Khoản 1] quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương II – CHỦ TRƯƠNG ĐẦU TƯ VÀ QUYẾT ĐỊNH ĐẦU TƯ CHƯƠNG TRÌNH, DỰ ÁN ĐẦU TƯ CÔNG Mục 1. LẬP, THẨM ĐỊNH, QUYẾT ĐỊNH CHỦ TRƯƠNG ĐẦU TƯ > Điều 22. Trình tự, thủ tục quyết định chủ trương đầu tư chương trình đầu tư công thuộc thẩm > Khoản 1: Chủ chương trình có trách nhiệm: a) Giao đơn vị trực thuộc lập báo cáo đề xuất chủ trương đầu tư; b) Giao đơn vị có chức năng thẩm định hoặc thành lập Hội đồng để thẩm định báo cáo đề xuất chủ trương đầu tư; c) Hoàn thiện báo cáo đề xuất chủ trương đầu tư trình Thủ tướng Chính phủ.",
+      "gold_citation_groups": [
+        [
+          "39-2019-QH14#d22.k1"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Chủ chương trình có trách nhiệm: a) Giao đơn vị trực thuộc lập báo cáo đề xuất chủ trương đầu tư; b) Giao đơn vị có chức năng thẩm định hoặc thành lập Hội đồng để thẩm định báo cáo đề xuất chủ trương đầu tư; c) Hoàn…",
+            "any_of": [
+              "Chủ chương trình có trách nhiệm: a) Giao đơn vị trực thuộc lập báo"
+            ],
+            "patterns": [
+              "(?is)chương.*trình.*trách.*nhiệm.*giao"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_029",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản 57-2024-QH15, Điều 5. Điều khoản thi hành > Khoản 1 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 5. Điều khoản thi hành > Khoản 1: Bãi bỏ Điều 39 và Điều 40 của Luật Thủ đô số 39/2024/QH15.",
+      "gold_citation_groups": [
+        [
+          "57-2024-QH15#d5.k1"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Bãi bỏ Điều 39 và Điều 40 của Luật Thủ đô số 39/2024/QH15",
+            "any_of": [
+              "Bãi bỏ Điều 39 và Điều 40 của Luật Thủ đô số 39/2024/QH15"
+            ],
+            "patterns": []
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_030",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “ĐẦU TƯ CÔNG” (58-2024-QH15), Chương VI – NHIỆM VỤ, QUYỀN HẠN, TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN TRONG HOẠT ĐỘNG ĐẦU TƯ CÔNG > Điều 84. Nhiệm vụ, quyền hạn của Thủ tướng Chính phủ > Khoản 3 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương VI – NHIỆM VỤ, QUYỀN HẠN, TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN TRONG HOẠT ĐỘNG ĐẦU TƯ CÔNG > Điều 84. Nhiệm vụ, quyền hạn của Thủ tướng Chính phủ > Khoản 3: Quyết định giao một Ủy ban nhân dân cấp tỉnh là cơ quan chủ quản thực hiện dự án trên địa bàn từ 02 đơn vị hành chính cấp tỉnh trở lên.",
+      "gold_citation_groups": [
+        [
+          "58-2024-QH15#d84.k3"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Quyết định giao một Ủy ban nhân dân cấp tỉnh là cơ quan chủ quản thực hiện dự án trên địa bàn từ 02 đơn vị hành chính cấp tỉnh trở lên",
+            "any_of": [
+              "Quyết định giao một Ủy ban nhân dân cấp tỉnh là cơ quan chủ"
+            ],
+            "patterns": [
+              "(?is)quyết.*giao.*nhân.*tỉnh.*quan"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_031",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “QUẢN LÝ VÀ ĐẦU TƯ VỐN NHÀ NƯỚC TẠI DOANH NGHIỆP” (68-2025-QH15), Chương III – QUẢN LÝ VỐN NHÀ NƯỚC TẠI DOANH NGHIỆP Mục 1. QUẢN LÝ VỐN NHÀ NƯỚC TẠI DOANH NGHIỆP DO NHÀ NƯỚC NẮM GIỮ 100% VỐN ĐIỀU LỆ > Điều 19. Nguyên tắc huy động vốn, cho vay vốn > Khoản 1 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương III – QUẢN LÝ VỐN NHÀ NƯỚC TẠI DOANH NGHIỆP Mục 1. QUẢN LÝ VỐN NHÀ NƯỚC TẠI DOANH NGHIỆP DO NHÀ NƯỚC NẮM GIỮ 100% VỐN ĐIỀU LỆ > Điều 19. Nguyên tắc huy động vốn, cho vay vốn > Khoản 1: Doanh nghiệp được quyết định huy động vốn theo nguyên tắc tự vay, tự trả theo quy định của pháp luật. Phương án huy động vốn phải bảo đảm khả năng thanh toán nợ.",
+      "gold_citation_groups": [
+        [
+          "68-2025-QH15#d19.k1"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Doanh nghiệp được quyết định huy động vốn theo nguyên tắc tự vay, tự trả theo quy định của pháp luật. Phương án huy động vốn phải bảo đảm khả năng thanh toán nợ",
+            "any_of": [
+              "Doanh nghiệp được quyết định huy động vốn theo nguyên tắc tự vay, tự"
+            ],
+            "patterns": [
+              "(?is)doanh.*nghiệp.*quyết.*động.*nguyên"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_032",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “QUẢN LÝ, SỬ DỤNG VỐN NHÀ NƯỚC ĐẦU TƯ VÀO SẢN XUẤT, KINH DOANH TẠI DOANH NGHIỆP” (69-2014-QH13), Chương VI – NGƯỜI ĐẠI DIỆN PHẦN VỐN NHÀ NƯỚC, NGƯỜI ĐẠI DIỆN PHẦN VỐN CỦA DOANH NGHIỆP nghiệp Người đại diện phần vốn nhà nước, người đại diện phần vốn của doanh nghiệp… [Điều 49, Khoản 6] quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương VI – NGƯỜI ĐẠI DIỆN PHẦN VỐN NHÀ NƯỚC, NGƯỜI ĐẠI DIỆN PHẦN VỐN CỦA DOANH NGHIỆP nghiệp Người đại diện phần vốn nhà nước, người đại diện phần vốn của doanh nghiệp phải đáp ứng các tiêu chuẩn sau đây: > Điều 49. Quyền, trách nhiệm của người đại diện phần vốn của doanh nghiệp > Khoản 6: Thực hiện quyền, trách nhiệm khác theo quy định của pháp luật về doanh nghiệp, điều lệ doanh nghiệp và quy định khác của pháp luật có liên quan. người đại diện phần vốn của doanh nghiệp",
+      "gold_citation_groups": [
+        [
+          "69-2014-QH13#d49.k6"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Thực hiện quyền, trách nhiệm khác theo quy định của pháp luật về doanh nghiệp, điều lệ doanh nghiệp và quy định khác của pháp luật có liên quan. người đại diện phần vốn của doanh nghiệp",
+            "any_of": [
+              "Thực hiện quyền, trách nhiệm khác theo quy định của pháp luật về doanh"
+            ],
+            "patterns": [
+              "(?is)hiện.*quyền.*trách.*nhiệm.*khác"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_033",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản 89-2026-ND-CP, Chương V – TỔ CHỨC THỰC HIỆN > Điều 22. Trách nhiệm của Ủy ban nhân dân cấp tỉnh, thành phố > Khoản 6 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương V – TỔ CHỨC THỰC HIỆN > Điều 22. Trách nhiệm của Ủy ban nhân dân cấp tỉnh, thành phố > Khoản 6: Chỉ định cơ sở đăng kiểm tiếp nhận hồ sơ lưu trữ liên quan đến: kiểm định, chứng nhận cải tạo xe cơ giới, xe máy chuyên dùng; kiểm định khí thải xe mô tô, xe gắn máy của cơ sở đăng kiểm bị thu hồi giấy chứng nhận đủ điều kiện hoạt động kiểm định.",
+      "gold_citation_groups": [
+        [
+          "89-2026-ND-CP#d22.k6"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Chỉ định cơ sở đăng kiểm tiếp nhận hồ sơ lưu trữ liên quan đến: kiểm định, chứng nhận cải tạo xe cơ giới, xe máy chuyên dùng; kiểm định khí thải xe mô tô, xe gắn máy của cơ sở đăng kiểm bị thu hồi giấy chứng nhận đủ…",
+            "any_of": [
+              "Chỉ định cơ sở đăng kiểm tiếp nhận hồ sơ lưu trữ liên quan"
+            ],
+            "patterns": [
+              "(?is)đăng.*kiểm.*tiếp.*nhận.*liên"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_034",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản 96-2026-ND-CP, Điều 99. Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 19/2026/NĐ-CP ngày 14 tháng 01 năm 2026 của Chính phủ về trình tự, thủ tục thẩm định dự án quan trọng quốc… [Điều 99, Khoản 2] quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 99. Sửa đổi, bổ sung, bãi bỏ một số điều của Nghị định số 19/2026/NĐ-CP ngày 14 tháng 01 năm 2026 của Chính phủ về trình tự, thủ tục thẩm định dự án quan trọng quốc gia và giám sát, đánh giá đầu tư > Khoản 2: Cơ chế, chính sách đặc biệt, khác với quy định của luật, nghị quyết của Quốc hội đối với dự án.”.",
+      "gold_citation_groups": [
+        [
+          "96-2026-ND-CP#d99.k2-2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Cơ chế, chính sách đặc biệt, khác với quy định của luật, nghị quyết của Quốc hội đối với dự án.”",
+            "any_of": [
+              "Cơ chế, chính sách đặc biệt, khác với quy định của luật, nghị quyết"
+            ],
+            "patterns": [
+              "(?is)sách.*biệt.*khác.*nghị.*quyết"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_035",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản HIENPHAP2013, Chương XI – HIỆU LỰC CỦA HIẾN PHÁP VÀ VIỆC SỬA ĐỔI HIẾN PHÁP > Điều 120 > Khoản 2 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương XI – HIỆU LỰC CỦA HIẾN PHÁP VÀ VIỆC SỬA ĐỔI HIẾN PHÁP > Điều 120 > Khoản 2: Quốc hội thành lập Ủy ban dự thảo Hiến pháp. Thành phần, số lượng thành viên, nhiệm vụ và quyền hạn của Ủy ban dự thảo Hiến pháp do Quốc hội quyết định theo đề nghị của Ủy ban thường vụ Quốc hội.",
+      "gold_citation_groups": [
+        [
+          "HIENPHAP2013#d120.k2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Quốc hội thành lập Ủy ban dự thảo Hiến pháp. Thành phần, số lượng thành viên, nhiệm vụ và quyền hạn của Ủy ban dự thảo Hiến pháp do Quốc hội quyết định theo đề nghị của Ủy ban thường vụ Quốc hội",
+            "any_of": [
+              "Quốc hội thành lập Ủy ban dự thảo Hiến pháp. Thành phần, số lượng"
+            ],
+            "patterns": [
+              "(?is)quốc.*thành.*thảo.*hiến.*phần"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_036",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ” (VANBANGOC_64.SIGNED), Điều 13. Trình tự quyết định chủ trương đầu tư dự án PPP > Khoản 5 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 13. Trình tự quyết định chủ trương đầu tư dự án PPP > Khoản 5: Đối với dự án PPP sử dụng nguồn vốn chi thường xuyên, nguồn thu hợp pháp dành để chi thường xuyên của cơ quan nhà nước, đơn vị sự nghiệp công lập để thanh toán cho doanh nghiệp dự án PPP, sử dụng dự phòng ngân sách nhà nước để chi trả phần giảm doanh thu, cơ quan tài chính các cấp thẩm định khả năng cân đối của ngân sách theo quy định của pháp luật về ngân sách nhà nước, gửi Hội đồng thẩm định dự án PPP hoặc đơn vị được giao nhiệm vụ thẩm định tổng hợp, trình cấp có thẩm quyền quyết định chủ trương đầu tư.",
+      "gold_citation_groups": [
+        [
+          "VANBANGOC_64.SIGNED#d13.k5"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Đối với dự án PPP sử dụng nguồn vốn chi thường xuyên, nguồn thu hợp pháp dành để chi thường xuyên của cơ quan nhà nước, đơn vị sự nghiệp công lập để thanh toán cho doanh nghiệp dự án PPP, sử dụng dự phòng ngân sách nhà…",
+            "any_of": [
+              "Đối với dự án PPP sử dụng nguồn vốn chi thường xuyên, nguồn thu"
+            ],
+            "patterns": [
+              "(?is)dụng.*nguồn.*thường.*xuyên.*dành"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_037",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “QUY ĐỊNH VỀ ĐẦU TƯ RA NƯỚC NGOÀI” (103-2026-ND-CP), Điều 42. Xử lý vi phạm và giải quyết tranh chấp > Khoản 2 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 42. Xử lý vi phạm và giải quyết tranh chấp > Khoản 2: Chính phủ và các cơ quan quản lý nhà nước của Việt Nam không có trách nhiệm giải quyết tranh chấp giữa các nhà đầu tư và tranh chấp giữa nhà đầu tư với các tổ chức, cá nhân có liên quan trong quá trình thực hiện thủ tục đầu tư, hoạt động đầu tư ở nước ngoài.",
+      "gold_citation_groups": [
+        [
+          "103-2026-ND-CP#d42.k2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Chính phủ và các cơ quan quản lý nhà nước của Việt Nam không có trách nhiệm giải quyết tranh chấp giữa các nhà đầu tư và tranh chấp giữa nhà đầu tư với các tổ chức, cá nhân có liên quan trong quá trình thực hiện thủ tục…",
+            "any_of": [
+              "Chính phủ và các cơ quan quản lý nhà nước của Việt Nam không"
+            ],
+            "patterns": [
+              "(?is)quan.*quản.*nước.*việt.*trách"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_038",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “Quy định về đầu tư xây dựng, quản lý khai thác cảng cạn” (106-2026-ND-CP), Chương I – NHỮNG QUY ĐỊNH CHUNG > Điều 5. Chức năng cảng cạn quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương I – **NHỮNG QUY ĐỊNH CHUNG** > Điều 5. Chức năng cảng cạn: Cảng cạn có các chức năng quy định tại Điều 100 Bộ luật Hàng hải Việt Nam số 95/2015/QH13.",
+      "gold_citation_groups": [
+        [
+          "106-2026-ND-CP#d5"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Cảng cạn có các chức năng quy định tại Điều 100 Bộ luật Hàng hải Việt Nam số 95/2015/QH13",
+            "any_of": [
+              "Cảng cạn có các chức năng quy định tại Điều 100 Bộ luật Hàng"
+            ],
+            "patterns": [
+              "(?is)cảng.*chức.*năng.*hàng.*việt"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_039",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “QUY ĐỊNH CHI TIẾT VỀ VIỆC XỬ LÝ VƯỚNG MẮC CỦA DỰ ÁN BOT GIAO THÔNG” (122-2026-ND-CP), Chương III – ĐIỀU KIỆN CHI TRẢ, NGUYÊN TẮC XÁC ĐỊNH CHI PHÍ BỒI THƯỜNG, CHẤM DỨT HỢP ĐỒNG TRƯỚC THỜI HẠN DỰ ÁN BOT GIAO THÔNG > Điều 10. Nguyên tắc xác định chi phí bồi… [Điều 10, Khoản 4] quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương III – ĐIỀU KIỆN CHI TRẢ, NGUYÊN TẮC XÁC ĐỊNH CHI PHÍ BỒI THƯỜNG, CHẤM DỨT HỢP ĐỒNG TRƯỚC THỜI HẠN DỰ ÁN BOT GIAO THÔNG > Điều 10. Nguyên tắc xác định chi phí bồi thường, chấm dứt hợp đồng trước thời hạn > Khoản 4: Không tính lợi nhuận vốn chủ sở hữu của nhà đầu tư trong chi phí bồi thường, chấm dứt hợp đồng trước thời hạn.",
+      "gold_citation_groups": [
+        [
+          "122-2026-ND-CP#d10.k4"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Không tính lợi nhuận vốn chủ sở hữu của nhà đầu tư trong chi phí bồi thường, chấm dứt hợp đồng trước thời hạn",
+            "any_of": [
+              "Không tính lợi nhuận vốn chủ sở hữu của nhà đầu tư trong chi"
+            ],
+            "patterns": [
+              "(?is)tính.*nhuận.*thường.*chấm.*đồng"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_040",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “VỀ QUẢN LÝ HOẠT ĐỘNG KINH DOANH THEO PHƯƠNG THỨC ĐA CẤP” (137-2026-ND-CP), Chương I – NHỮNG QUY ĐỊNH CHUNG > Điều 3. Giải thích từ ngữ Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: > Khoản 3 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương I – **NHỮNG QUY ĐỊNH CHUNG** > Điều 3. Giải thích từ ngữ** Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: > Khoản 3: Người tham gia bán hàng đa cấp là cá nhân giao kết hợp đồng tham gia bán hàng đa cấp với doanh nghiệp bán hàng đa cấp.",
+      "gold_citation_groups": [
+        [
+          "137-2026-ND-CP#d3.k3"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Người tham gia bán hàng đa cấp là cá nhân giao kết hợp đồng tham gia bán hàng đa cấp với doanh nghiệp bán hàng đa cấp",
+            "any_of": [
+              "Người tham gia bán hàng đa cấp là cá nhân giao kết hợp đồng"
+            ],
+            "patterns": [
+              "(?is)người.*tham.*hàng.*nhân.*giao"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_041",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản 143-2025-QH15, Điều 9. Bảo đảm quyền sở hữu tài sản > Khoản 1 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 9. Bảo đảm quyền sở hữu tài sản > Khoản 1: Tài sản hợp pháp của nhà đầu tư không bị quốc hữu hóa hoặc bị tịch thu bằng biện pháp hành chính.",
+      "gold_citation_groups": [
+        [
+          "143-2025-QH15#d9.k1"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Tài sản hợp pháp của nhà đầu tư không bị quốc hữu hóa hoặc bị tịch thu bằng biện pháp hành chính",
+            "any_of": [
+              "Tài sản hợp pháp của nhà đầu tư không bị quốc hữu hóa hoặc"
+            ],
+            "patterns": [
+              "(?is)quốc.*tịch.*biện.*hành"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_042",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA CÁC NGHỊ ĐỊNH QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP THI HÀNH LUẬT ĐẤU THẦU” (17-2025-ND-CP), Điều 2. Sửa đổi, bổ sung một số điều của Nghị định số 24/2024/NĐ-CP ngày 27 tháng 02 năm 2024 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Đấu… [Điều 2, Khoản 2] quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 2. Sửa đổi, bổ sung một số điều của Nghị định số 24/2024/NĐ-CP ngày 27 tháng 02 năm 2024 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu > Khoản 2: Gói thầu khi triển khai thực hiện có yêu cầu phải bảo đảm quốc phòng, an ninh, đối ngoại, biên giới lãnh thổ mà không thể áp dụng được một trong các hình thức lựa chọn nhà thầu quy định tại các Điều 21, 22, 23, 24, 25, 26, 27 và 28 của Luật Đấu thầu.",
+      "gold_citation_groups": [
+        [
+          "17-2025-ND-CP#d2.k2-2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Gói thầu khi triển khai thực hiện có yêu cầu phải bảo đảm quốc phòng, an ninh, đối ngoại, biên giới lãnh thổ mà không thể áp dụng được một trong các hình thức lựa chọn nhà thầu quy định tại các Điều 21, 22, 23, 24, 25…",
+            "any_of": [
+              "Gói thầu khi triển khai thực hiện có yêu cầu phải bảo đảm quốc"
+            ],
+            "patterns": [
+              "(?is)thầu.*triển.*khai.*hiện.*phải"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_043",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “QUY ĐỊNH VỀ ĐIỀU KIỆN NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG, HỆ THỐNG THÔNG TIN, CƠ SỞ DỮ LIỆU QUỐC GIA VỀ HOẠT ĐỘNG XÂY DỰNG” (212-2026-ND-CP), Chương IV – NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG Mục 1. ĐIỀU KIỆN NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG CỦA CÁ NHÂN > Điều 34. Điều kiện kinh nghiệm nghề nghiệp để được cấp chứng chỉ hành… [Điều 34, Khoản 2] quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương IV – NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG Mục 1. ĐIỀU KIỆN NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG CỦA CÁ NHÂN > Điều 34. Điều kiện kinh nghiệm nghề nghiệp để được cấp chứng chỉ hành nghề khảo sát xây dựng > Khoản 2: Hạng II: a) Đối với khảo sát địa hình: Đã làm chủ nhiệm khảo sát xây dựng thuộc lĩnh vực đề nghị cấp chứng chỉ hành nghề 01 dự án nhóm B hoặc 02 dự án nhóm C hoặc 01 công trình cấp II hoặc 02 công trình cấp III; b) Đối với khảo sát địa chất: Đã làm chủ nhiệm khảo sát xây dựng thuộc lĩnh vực đề nghị cấp chứng chỉ hành nghề 01 công trình cấp II hoặc 02 công trình cấp III.",
+      "gold_citation_groups": [
+        [
+          "212-2026-ND-CP#d34.k2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Hạng II: a) Đối với khảo sát địa hình: Đã làm chủ nhiệm khảo sát xây dựng thuộc lĩnh vực đề nghị cấp chứng chỉ hành nghề 01 dự án nhóm B hoặc 02 dự án nhóm C hoặc 01 công trình cấp II hoặc 02 công trình cấp III; b) Đối…",
+            "any_of": [
+              "Hạng II: a) Đối với khảo sát địa hình: Đã làm chủ nhiệm khảo"
+            ],
+            "patterns": [
+              "(?is)hạng.*khảo.*hình.*nhiệm.*dựng"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_044",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản 241-2026-ND-CP, Điều 28. Điều khoản chuyển tiếp > Khoản 2 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 28. Điều khoản chuyển tiếp > Khoản 2: Đối với quốc lộ, đường cao tốc thuộc quy hoạch mạng lưới đường bộ đã được cấp có thẩm quyền giao Ủy ban nhân dân cấp tỉnh đầu tư, xây dựng, quản lý, vận hành, khai thác, bảo trì trước ngày Nghị định này có hiệu lực thi hành, Ủy ban nhân dân cấp tỉnh tiếp tục thực hiện theo văn bản giao.",
+      "gold_citation_groups": [
+        [
+          "241-2026-ND-CP#d28.k2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Đối với quốc lộ, đường cao tốc thuộc quy hoạch mạng lưới đường bộ đã được cấp có thẩm quyền giao Ủy ban nhân dân cấp tỉnh đầu tư, xây dựng, quản lý, vận hành, khai thác, bảo trì trước ngày Nghị định này có hiệu lực thi…",
+            "any_of": [
+              "Đối với quốc lộ, đường cao tốc thuộc quy hoạch mạng lưới đường bộ"
+            ],
+            "patterns": [
+              "(?is)quốc.*đường.*thuộc.*hoạch.*mạng"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_045",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản 272-2026-ND-CP, Điều 13. Điều khoản thi hành > Khoản 2 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 13. Điều khoản thi hành > Khoản 2: Một dự án điện gió ngoài khơi bán điện lên hệ thống điện quốc gia trong quy hoạch phát triển điện lực, dự kiến vận hành trong giai đoạn 2025 - 2030, giai đoạn 2031 - 2035 chỉ giao cho 01 đơn vị khảo sát để thực hiện khảo sát điện gió ngoài khơi; trường hợp đề xuất khảo sát dự án điện gió ngoài khơi không thuộc danh mục dự án điện gió ngoài khơi bán điện lên hệ thống điện quốc gia trong quy hoạch phát triển điện lực và dự kiến vận hành trong giai đoạn 2025 - 2030, giai đoạn 2031 - 2035 thì thực hiện theo quy định của pháp luật về giao khu vực biển, pháp luật về tài nguyên, môi trường biển và hải đảo, pháp luật khác có liên quan.",
+      "gold_citation_groups": [
+        [
+          "272-2026-ND-CP#d13.k2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Một dự án điện gió ngoài khơi bán điện lên hệ thống điện quốc gia trong quy hoạch phát triển điện lực, dự kiến vận hành trong giai đoạn 2025 - 2030, giai đoạn 2031 - 2035 chỉ giao cho 01 đơn vị khảo sát để thực hiện…",
+            "any_of": [
+              "Một dự án điện gió ngoài khơi bán điện lên hệ thống điện quốc"
+            ],
+            "patterns": [
+              "(?is)điện.*ngoài.*khơi.*thống.*quốc"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "SINGLE_046",
+      "enabled": true,
+      "category": "single_hop",
+      "question": "Theo văn bản “ĐẦU TƯ CÔNG” (39-2019-QH14), Chương III – LẬP, THẨM ĐỊNH, PHÊ DUYỆT VÀ GIAO KẾ HOẠCH ĐẦU TƯ CÔNG Mục 1. QUY ĐỊNH CHUNG > Điều 55. Trình tư lập, thẩm định kế hoạch đầu tư công trung hạn > Khoản 11 quy định như thế nào?",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương III – LẬP, THẨM ĐỊNH, PHÊ DUYỆT VÀ GIAO KẾ HOẠCH ĐẦU TƯ CÔNG Mục 1. QUY ĐỊNH CHUNG > Điều 55. Trình tư lập, thẩm định kế hoạch đầu tư công trung hạn > Khoản 11: Trước ngày 31 tháng 7 năm thứ năm của kế hoạch đầu tư công trung hạn giai đoạn trước, Bộ Kế hoạch và Đầu tư tổng hợp kế hoạch đầu tư công trung hạn của quốc gia báo cáo Chính phủ.",
+      "gold_citation_groups": [
+        [
+          "39-2019-QH14#d55.k11"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "fact_1",
+            "description": "Trước ngày 31 tháng 7 năm thứ năm của kế hoạch đầu tư công trung hạn giai đoạn trước, Bộ Kế hoạch và Đầu tư tổng hợp kế hoạch đầu tư công trung hạn của quốc gia báo cáo Chính phủ",
+            "any_of": [
+              "Trước ngày 31 tháng 7 năm thứ năm của kế hoạch đầu tư công"
+            ],
+            "patterns": [
+              "(?is)trước.*ngày.*tháng.*hoạch.*công"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Sinh từ một chunk corpus; cần chuyên gia xác nhận cách diễn đạt câu hỏi và fact rubric trước báo cáo."
+    },
+    {
+      "id": "MULTI_001",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản “QUY ĐỊNH VỀ ĐẦU TƯ RA NƯỚC NGOÀI” (103-2026-ND-CP), hãy trình bày đồng thời nội dung tại (1) Điều 34. Chuyển lợi nhuận về nước > Khoản 1 và (2) Điều 34. Chuyển lợi nhuận về nước > Khoản 2.",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 34. Chuyển lợi nhuận về nước > Khoản 1: Trừ trường hợp giữ lại lợi nhuận theo quy định tại Điều 33 của Nghị định này, trong thời hạn 12 tháng kể từ ngày được chia lợi nhuận, nhà đầu tư phải chuyển toàn bộ lợi nhuận thu được và các khoản thu nhập khác từ hoạt động đầu tư ở nước ngoài về Việt Nam.\n\nĐiều 34. Chuyển lợi nhuận về nước > Khoản 2: Nhà đầu tư được sử dụng phần lợi nhuận được chia để hoán đổi nghĩa vụ phát sinh tại nước ngoài với đối tác đang có hoạt động tại Việt Nam. Việc thực hiện hoán đổi phải đáp ứng các điều kiện sau: a) Đã thực hiện báo cáo với Ngân hàng Nhà nước Việt Nam và Bộ Tài chính theo quy định; b) Tuân thủ quy định của pháp luật về quản lý ngoại hối, đầu tư và pháp luật có liên quan; c) Thực hiện đầy đủ nghĩa vụ thuế phát sinh tại Việt Nam đối với giao dịch hoán đổi theo quy định của pháp luật về thuế, bao gồm nghĩa vụ thuế của nhà đầu tư và của đối tác nước ngoài (nếu có); d) Không được sử dụng giao dịch hoán đổi để trốn thuế, tránh thuế hoặc thực hiện các hành vi vi phạm pháp luật về thuế, ngoại hối và pháp luật có liên quan.",
+      "gold_citation_groups": [
+        [
+          "103-2026-ND-CP#d34.k1"
+        ],
+        [
+          "103-2026-ND-CP#d34.k2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Trừ trường hợp giữ lại lợi nhuận theo quy định tại Điều 33 của Nghị định này, trong thời hạn 12 tháng kể từ ngày được chia lợi nhuận, nhà đầu tư phải chuyển toàn bộ lợi nhuận thu được và các khoản thu nhập khác từ hoạt…",
+            "any_of": [
+              "Trừ trường hợp giữ lại lợi nhuận theo quy định tại Điều 33 của"
+            ],
+            "patterns": [
+              "(?is)nhuận.*nghị.*thời.*tháng.*ngày"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Nhà đầu tư được sử dụng phần lợi nhuận được chia để hoán đổi nghĩa vụ phát sinh tại nước ngoài với đối tác đang có hoạt động tại Việt Nam. Việc thực hiện hoán đổi phải đáp ứng các điều kiện sau: a) Đã thực hiện báo cáo…",
+            "any_of": [
+              "Nhà đầu tư được sử dụng phần lợi nhuận được chia để hoán đổi"
+            ],
+            "patterns": [
+              "(?is)dụng.*phần.*nhuận.*chia.*hoán"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_002",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản “Quy định về đầu tư xây dựng, quản lý khai thác cảng cạn” (106-2026-ND-CP), hãy trình bày đồng thời nội dung tại (1) Chương I – NHỮNG QUY ĐỊNH CHUNG > Điều 4. Nội dung quản lý nhà nước về cảng cạn > Khoản 7 và (2) Chương I – NHỮNG QUY ĐỊNH CHUNG > Điều 4. Nội dung quản lý nhà nước về cảng cạn > Khoản 8.",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương I – **NHỮNG QUY ĐỊNH CHUNG** > Điều 4. Nội dung quản lý nhà nước về cảng cạn > Khoản 7: Quản lý về giá, phí và lệ phí đối với hoạt động khai thác cảng cạn.\n\nChương I – **NHỮNG QUY ĐỊNH CHUNG** > Điều 4. Nội dung quản lý nhà nước về cảng cạn > Khoản 8: Tổ chức thống kê các thông số, dữ liệu liên quan về cảng cạn.",
+      "gold_citation_groups": [
+        [
+          "106-2026-ND-CP#d4.k7"
+        ],
+        [
+          "106-2026-ND-CP#d4.k8"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Quản lý về giá, phí và lệ phí đối với hoạt động khai thác cảng cạn",
+            "any_of": [
+              "Quản lý về giá, phí và lệ phí đối với hoạt động khai thác"
+            ],
+            "patterns": [
+              "(?is)quản.*hoạt.*động.*khai.*thác"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Tổ chức thống kê các thông số, dữ liệu liên quan về cảng cạn",
+            "any_of": [
+              "Tổ chức thống kê các thông số, dữ liệu liên quan về cảng cạn"
+            ],
+            "patterns": [
+              "(?is)chức.*thống.*thông.*liệu.*liên"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_003",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản “QUY ĐỊNH CHI TIẾT VỀ VIỆC XỬ LÝ VƯỚNG MẮC CỦA DỰ ÁN BOT GIAO THÔNG” (122-2026-ND-CP), hãy trình bày đồng thời nội dung tại (1) Chương II – XỬ LÝ VƯỚNG MẮC GIẢM DOANH THU CỦA CÁC DỰ ÁN BOT TRONG LĨNH VỰC ĐƯỜNG BỘ > Điều 8. Trình tự thực hiện chia sẻ… [Điều 8, Khoản 2, Điểm c] và (2) Chương II – XỬ LÝ VƯỚNG MẮC GIẢM DOANH THU CỦA CÁC DỰ ÁN BOT TRONG LĨNH VỰC ĐƯỜNG BỘ > Điều 8. Trình tự thực hiện chia sẻ… [Điều 8, Khoản 2, Điểm d].",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương II – XỬ LÝ VƯỚNG MẮC GIẢM DOANH THU CỦA CÁC DỰ ÁN BOT TRONG LĨNH VỰC ĐƯỜNG BỘ > Điều 8. Trình tự thực hiện chia sẻ phần giảm doanh thu > Khoản 2 > Điểm c: Sau khi đã tính toán theo quy định tại điểm b khoản 1 Điều này nhưng doanh thu thực tế của 03 năm gần nhất đạt dưới 75% mức doanh thu trong phương án tài chính tại hợp đồng dự án và thuộc quy định tại Điều 4 Nghị định này, nhà đầu tư, doanh nghiệp dự án đàm phán, thống nhất với bên cho vay các nội dung sau: c) Tính toán phương án tài chính dự kiến điều chỉnh trên cơ sở cập nhật các nội dung tại điểm a, điểm b khoản này.\n\nChương II – XỬ LÝ VƯỚNG MẮC GIẢM DOANH THU CỦA CÁC DỰ ÁN BOT TRONG LĨNH VỰC ĐƯỜNG BỘ > Điều 8. Trình tự thực hiện chia sẻ phần giảm doanh thu > Khoản 2 > Điểm d: Sau khi đã tính toán theo quy định tại điểm b khoản 1 Điều này nhưng doanh thu thực tế của 03 năm gần nhất đạt dưới 75% mức doanh thu trong phương án tài chính tại hợp đồng dự án và thuộc quy định tại Điều 4 Nghị định này, nhà đầu tư, doanh nghiệp dự án đàm phán, thống nhất với bên cho vay các nội dung sau: d) Dự kiến điều chỉnh phương án trả nợ trong hợp đồng tín dụng theo quy định tại khoản 3 Điều 7 Nghị định này.",
+      "gold_citation_groups": [
+        [
+          "122-2026-ND-CP#d8.k2.pc"
+        ],
+        [
+          "122-2026-ND-CP#d8.k2.pd"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Sau khi đã tính toán theo quy định tại điểm b khoản 1 Điều này nhưng doanh thu thực tế của 03 năm gần nhất đạt dưới 75% mức doanh thu trong phương án tài chính tại hợp đồng dự án và thuộc quy định tại Điều 4 Nghị định…",
+            "any_of": [
+              "Sau khi đã tính toán theo quy định tại điểm b khoản 1 Điều"
+            ],
+            "patterns": [
+              "(?is)tính.*toán.*điểm.*nhưng.*doanh"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Sau khi đã tính toán theo quy định tại điểm b khoản 1 Điều này nhưng doanh thu thực tế của 03 năm gần nhất đạt dưới 75% mức doanh thu trong phương án tài chính tại hợp đồng dự án và thuộc quy định tại Điều 4 Nghị định…",
+            "any_of": [
+              "Sau khi đã tính toán theo quy định tại điểm b khoản 1 Điều"
+            ],
+            "patterns": [
+              "(?is)tính.*toán.*điểm.*nhưng.*doanh"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_004",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản “VỀ QUẢN LÝ HOẠT ĐỘNG KINH DOANH THEO PHƯƠNG THỨC ĐA CẤP” (137-2026-ND-CP), hãy trình bày đồng thời nội dung tại (1) Chương I – NHỮNG QUY ĐỊNH CHUNG > Điều 5. Phát triển mạng lưới bán hàng đa cấp không dựa trên giao dịch mua bán hàng hóa Phát triển… [Điều 5, Khoản 1] và (2) Chương I – NHỮNG QUY ĐỊNH CHUNG > Điều 5. Phát triển mạng lưới bán hàng đa cấp không dựa trên giao dịch mua bán hàng hóa Phát triển… [Điều 5, Khoản 2].",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương I – **NHỮNG QUY ĐỊNH CHUNG** > Điều 5. Phát triển mạng lưới bán hàng đa cấp không dựa trên giao dịch mua bán hàng hóa** Phát triển mạng lưới bán hàng đa cấp không dựa trên giao dịch mua bán hàng hóa quy định tại điểm đ khoản 2 Điều 10 Luật Bảo vệ quyền lợi người tiêu dùng bao gồm các hình thức sau: > Khoản 1: Cho người tham gia bán hàng đa cấp nhận tiền hoặc lợi ích kinh tế khác từ việc giới thiệu người khác tham gia vào hoạt động bán hàng đa cấp mà không phải từ việc mua, bán hàng hóa của người được giới thiệu đó.\n\nChương I – **NHỮNG QUY ĐỊNH CHUNG** > Điều 5. Phát triển mạng lưới bán hàng đa cấp không dựa trên giao dịch mua bán hàng hóa** Phát triển mạng lưới bán hàng đa cấp không dựa trên giao dịch mua bán hàng hóa quy định tại điểm đ khoản 2 Điều 10 Luật Bảo vệ quyền lợi người tiêu dùng bao gồm các hình thức sau: > Khoản 2: Duy trì nhiều hơn một hợp đồng tham gia bán hàng đa cấp, vị trí kinh doanh đa cấp, mã số kinh doanh đa cấp hoặc các hình thức khác tương đương đối với cùng một người tham gia bán hàng đa cấp.",
+      "gold_citation_groups": [
+        [
+          "137-2026-ND-CP#d5.k1"
+        ],
+        [
+          "137-2026-ND-CP#d5.k2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Cho người tham gia bán hàng đa cấp nhận tiền hoặc lợi ích kinh tế khác từ việc giới thiệu người khác tham gia vào hoạt động bán hàng đa cấp mà không phải từ việc mua, bán hàng hóa của người được giới thiệu đó",
+            "any_of": [
+              "Cho người tham gia bán hàng đa cấp nhận tiền hoặc lợi ích kinh"
+            ],
+            "patterns": [
+              "(?is)người.*tham.*hàng.*nhận.*tiền"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Duy trì nhiều hơn một hợp đồng tham gia bán hàng đa cấp, vị trí kinh doanh đa cấp, mã số kinh doanh đa cấp hoặc các hình thức khác tương đương đối với cùng một người tham gia bán hàng đa cấp",
+            "any_of": [
+              "Duy trì nhiều hơn một hợp đồng tham gia bán hàng đa cấp, vị"
+            ],
+            "patterns": [
+              "(?is)nhiều.*đồng.*tham.*hàng.*kinh"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_005",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản 143-2025-QH15, hãy trình bày đồng thời nội dung tại (1) Điều 3. Giải thích từ ngữ > Khoản 20 và (2) Điều 3. Giải thích từ ngữ > Khoản 21.",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 3. Giải thích từ ngữ > Khoản 20: Nhà đầu tư trong nước là cá nhân có quốc tịch Việt Nam, tổ chức kinh tế không có nhà đầu tư nước ngoài là thành viên hoặc cổ đông.\n\nĐiều 3. Giải thích từ ngữ > Khoản 21: Tổ chức kinh tế là tổ chức được thành lập và hoạt động theo quy định của pháp luật Việt Nam, gồm doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã và tổ chức khác thực hiện hoạt động đầu tư kinh doanh.",
+      "gold_citation_groups": [
+        [
+          "143-2025-QH15#d3.k20"
+        ],
+        [
+          "143-2025-QH15#d3.k21"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Nhà đầu tư trong nước là cá nhân có quốc tịch Việt Nam, tổ chức kinh tế không có nhà đầu tư nước ngoài là thành viên hoặc cổ đông",
+            "any_of": [
+              "Nhà đầu tư trong nước là cá nhân có quốc tịch Việt Nam, tổ"
+            ],
+            "patterns": [
+              "(?is)nước.*nhân.*quốc.*tịch.*việt"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Tổ chức kinh tế là tổ chức được thành lập và hoạt động theo quy định của pháp luật Việt Nam, gồm doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã và tổ chức khác thực hiện hoạt động đầu tư kinh doanh",
+            "any_of": [
+              "Tổ chức kinh tế là tổ chức được thành lập và hoạt động theo"
+            ],
+            "patterns": [
+              "(?is)chức.*kinh.*thành.*hoạt.*động"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_006",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản “SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA CÁC NGHỊ ĐỊNH QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP THI HÀNH LUẬT ĐẤU THẦU” (17-2025-ND-CP), hãy trình bày đồng thời nội dung tại (1) Điều 2. Sửa đổi, bổ sung một số điều của Nghị định số 24/2024/NĐ-CP ngày 27 tháng 02 năm 2024 của Chính phủ quy định chi tiết một… [Điều 2, Khoản 2] và (2) Điều 2. Sửa đổi, bổ sung một số điều của Nghị định số 24/2024/NĐ-CP ngày 27 tháng 02 năm 2024 của Chính phủ quy định chi tiết một… [Điều 2, Khoản 20].",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 2. Sửa đổi, bổ sung một số điều của Nghị định số 24/2024/NĐ-CP ngày 27 tháng 02 năm 2024 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu > Khoản 2: Gói thầu khi triển khai thực hiện có yêu cầu phải bảo đảm quốc phòng, an ninh, đối ngoại, biên giới lãnh thổ mà không thể áp dụng được một trong các hình thức lựa chọn nhà thầu quy định tại các Điều 21, 22, 23, 24, 25, 26, 27 và 28 của Luật Đấu thầu.\n\nĐiều 2. Sửa đổi, bổ sung một số điều của Nghị định số 24/2024/NĐ-CP ngày 27 tháng 02 năm 2024 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu > Khoản 20: Sửa đổi, bổ sung Điều 82 như sau: “Điều 82. Trường hợp và thẩm quyền quyết định áp dụng lựa chọn nhà thầu trong trường hợp đặc biệt",
+      "gold_citation_groups": [
+        [
+          "17-2025-ND-CP#d2.k2-2"
+        ],
+        [
+          "17-2025-ND-CP#d2.k20"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Gói thầu khi triển khai thực hiện có yêu cầu phải bảo đảm quốc phòng, an ninh, đối ngoại, biên giới lãnh thổ mà không thể áp dụng được một trong các hình thức lựa chọn nhà thầu quy định tại các Điều 21, 22, 23, 24, 25…",
+            "any_of": [
+              "Gói thầu khi triển khai thực hiện có yêu cầu phải bảo đảm quốc"
+            ],
+            "patterns": [
+              "(?is)thầu.*triển.*khai.*hiện.*phải"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Sửa đổi, bổ sung Điều 82 như sau: “Điều 82. Trường hợp và thẩm quyền quyết định áp dụng lựa chọn nhà thầu trong trường hợp đặc biệt",
+            "any_of": [
+              "Sửa đổi, bổ sung Điều 82 như sau: “Điều 82. Trường hợp và thẩm"
+            ],
+            "patterns": [
+              "(?is)sung.*thẩm.*quyền.*quyết.*dụng"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_007",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản “QUY ĐỊNH VỀ ĐIỀU KIỆN NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG, HỆ THỐNG THÔNG TIN, CƠ SỞ DỮ LIỆU QUỐC GIA VỀ HOẠT ĐỘNG XÂY DỰNG” (212-2026-ND-CP), hãy trình bày đồng thời nội dung tại (1) Chương II – CƠ SỞ DỮ LIỆU QUỐC GIA VỀ HOẠT ĐỘNG XÂY DỰNG Mục 1. CƠ SỞ DỮ LIỆU, MÃ ĐỊNH DANH, QUY TRÌNH TẠO LẬP DỮ LIỆU QUY HOẠCH… [Điều 11, Khoản 1] và (2) Chương II – CƠ SỞ DỮ LIỆU QUỐC GIA VỀ HOẠT ĐỘNG XÂY DỰNG Mục 1. CƠ SỞ DỮ LIỆU, MÃ ĐỊNH DANH, QUY TRÌNH TẠO LẬP DỮ LIỆU QUY HOẠCH… [Điều 11, Khoản 2].",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương II – CƠ SỞ DỮ LIỆU QUỐC GIA VỀ HOẠT ĐỘNG XÂY DỰNG Mục 1. CƠ SỞ DỮ LIỆU, MÃ ĐỊNH DANH, QUY TRÌNH TẠO LẬP DỮ LIỆU QUY HOẠCH ĐÔ THỊ VÀ NÔNG THÔN > Điều 11. Dữ liệu mở, dữ liệu chủ của Cơ sở dữ liệu quy hoạch đô thị và nông thôn > Khoản 1: Dữ liệu chung và một số dữ liệu chi tiết trong cơ sở dữ liệu quy hoạch đô thị và nông thôn là dữ liệu mở được Bộ Xây dựng hướng dẫn chi tiết và công bố trên cổng dữ liệu quốc gia, cổng thông tin điện tử của Bộ Xây dựng.\n\nChương II – CƠ SỞ DỮ LIỆU QUỐC GIA VỀ HOẠT ĐỘNG XÂY DỰNG Mục 1. CƠ SỞ DỮ LIỆU, MÃ ĐỊNH DANH, QUY TRÌNH TẠO LẬP DỮ LIỆU QUY HOẠCH ĐÔ THỊ VÀ NÔNG THÔN > Điều 11. Dữ liệu mở, dữ liệu chủ của Cơ sở dữ liệu quy hoạch đô thị và nông thôn > Khoản 2: Dữ liệu chủ của cơ sở dữ liệu quy hoạch đô thị và nông thôn gồm dữ liệu chung được quy định tại điểm a khoản 2, điểm a khoản 3 Điều 9 và mã định danh quy hoạch đô thị và nông thôn quy định tại Điều 10 Nghị định này.",
+      "gold_citation_groups": [
+        [
+          "212-2026-ND-CP#d11.k1"
+        ],
+        [
+          "212-2026-ND-CP#d11.k2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Dữ liệu chung và một số dữ liệu chi tiết trong cơ sở dữ liệu quy hoạch đô thị và nông thôn là dữ liệu mở được Bộ Xây dựng hướng dẫn chi tiết và công bố trên cổng dữ liệu quốc gia, cổng thông tin điện tử của Bộ Xây dựng",
+            "any_of": [
+              "Dữ liệu chung và một số dữ liệu chi tiết trong cơ sở dữ"
+            ],
+            "patterns": [
+              "(?is)liệu.*chung.*tiết.*hoạch.*nông"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Dữ liệu chủ của cơ sở dữ liệu quy hoạch đô thị và nông thôn gồm dữ liệu chung được quy định tại điểm a khoản 2, điểm a khoản 3 Điều 9 và mã định danh quy hoạch đô thị và nông thôn quy định tại Điều 10 Nghị định này",
+            "any_of": [
+              "Dữ liệu chủ của cơ sở dữ liệu quy hoạch đô thị và nông"
+            ],
+            "patterns": [
+              "(?is)liệu.*hoạch.*nông.*thôn.*chung"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_008",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản 241-2026-ND-CP, hãy trình bày đồng thời nội dung tại (1) Điều 28. Điều khoản chuyển tiếp > Khoản 3 và (2) Điều 28. Điều khoản chuyển tiếp > Khoản 4.",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 28. Điều khoản chuyển tiếp > Khoản 3: Đối với các dự án đầu tư xây dựng kết cấu hạ tầng đường bộ, sửa chữa kết cấu hạ tầng đường bộ đã được cấp có thẩm quyền giao chuẩn bị dự án, quyết định chủ trương đầu tư, phê duyệt dự án trước ngày Nghị định này có hiệu lực thi hành, thì tiếp tục thực hiện dự án theo quyết định, văn bản giao.\n\nĐiều 28. Điều khoản chuyển tiếp > Khoản 4: Đối với dự án mở rộng, nâng cấp đường cao tốc đã thỏa thuận giữa cơ quan ký kết hợp đồng với nhà đầu tư hiện hữu quy định tại Điều 46 và Điều 47 Nghị định số 165/2024/NĐ-CP, được thực hiện như sau: a) Trường hợp đã phê duyệt, phê duyệt điều chỉnh dự án trước ngày Nghị định này có hiệu lực thi hành thì thực hiện theo quyết định đã phê duyệt, việc triển khai các bước tiếp thực hiện theo quy định tại Nghị định này; b) Trước ngày Nghị định này có hiệu lực thi hành nhưng chưa phê duyệt dự án, chưa phê duyệt điều chỉnh dự án, trình tự, thủ tục và nội dung phê duyệt, phê duyệt điều chỉnh dự án và việc triển khai các bước tiếp thực hiện theo quy định tại Nghị định này. TM. CHÍNH PHỦ KT. THỦ TƯỚNG PHÓ THỦ TƯỚNG Phạm Gia Túc",
+      "gold_citation_groups": [
+        [
+          "241-2026-ND-CP#d28.k3"
+        ],
+        [
+          "241-2026-ND-CP#d28.k4"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Đối với các dự án đầu tư xây dựng kết cấu hạ tầng đường bộ, sửa chữa kết cấu hạ tầng đường bộ đã được cấp có thẩm quyền giao chuẩn bị dự án, quyết định chủ trương đầu tư, phê duyệt dự án trước ngày Nghị định này có hiệu…",
+            "any_of": [
+              "Đối với các dự án đầu tư xây dựng kết cấu hạ tầng đường"
+            ],
+            "patterns": [
+              "(?is)dựng.*tầng.*đường.*chữa.*thẩm"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Đối với dự án mở rộng, nâng cấp đường cao tốc đã thỏa thuận giữa cơ quan ký kết hợp đồng với nhà đầu tư hiện hữu quy định tại Điều 46 và Điều 47 Nghị định số 165/2024/NĐ-CP, được thực hiện như sau: a) Trường hợp đã phê…",
+            "any_of": [
+              "Đối với dự án mở rộng, nâng cấp đường cao tốc đã thỏa thuận"
+            ],
+            "patterns": [
+              "(?is)rộng.*nâng.*đường.*thỏa.*thuận"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_009",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản 272-2026-ND-CP, hãy trình bày đồng thời nội dung tại (1) Điều 3. Nội dung báo cáo và thành phần hồ sơ đề nghị điều chỉnh cập > Khoản 2 > Điểm c và (2) Điều 3. Nội dung báo cáo và thành phần hồ sơ đề nghị điều chỉnh cập > Khoản 2 > Điểm d.",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 3. Nội dung báo cáo và thành phần hồ sơ đề nghị điều chỉnh cập > Khoản 2 > Điểm c: Báo cáo điều chỉnh cập nhật phương án phát triển mạng lưới cấp điện trong quy hoạch tỉnh, bao gồm những nội dung chính sau: c) Quy mô, tiến độ và các thông số chính của dự án cần điều chỉnh cập nhật quy hoạch và lý do điều chỉnh;\n\nĐiều 3. Nội dung báo cáo và thành phần hồ sơ đề nghị điều chỉnh cập > Khoản 2 > Điểm d: Báo cáo điều chỉnh cập nhật phương án phát triển mạng lưới cấp điện trong quy hoạch tỉnh, bao gồm những nội dung chính sau: d) Đánh giá ảnh hưởng của việc điều chỉnh cập nhật quy hoạch đối với việc đấu nối, khả năng giải tỏa công suất và an toàn vận hành hệ thống điện trên địa bàn và liên kết khu vực;",
+      "gold_citation_groups": [
+        [
+          "272-2026-ND-CP#d3.k2.pc"
+        ],
+        [
+          "272-2026-ND-CP#d3.k2.pd"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Báo cáo điều chỉnh cập nhật phương án phát triển mạng lưới cấp điện trong quy hoạch tỉnh, bao gồm những nội dung chính sau: c) Quy mô, tiến độ và các thông số chính của dự án cần điều chỉnh cập nhật quy hoạch và lý do…",
+            "any_of": [
+              "Báo cáo điều chỉnh cập nhật phương án phát triển mạng lưới cấp điện"
+            ],
+            "patterns": [
+              "(?is)chỉnh.*nhật.*phương.*phát.*triển"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Báo cáo điều chỉnh cập nhật phương án phát triển mạng lưới cấp điện trong quy hoạch tỉnh, bao gồm những nội dung chính sau: d) Đánh giá ảnh hưởng của việc điều chỉnh cập nhật quy hoạch đối với việc đấu nối, khả năng…",
+            "any_of": [
+              "Báo cáo điều chỉnh cập nhật phương án phát triển mạng lưới cấp điện"
+            ],
+            "patterns": [
+              "(?is)chỉnh.*nhật.*phương.*phát.*triển"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_010",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản “ĐẦU TƯ CÔNG” (39-2019-QH14), hãy trình bày đồng thời nội dung tại (1) Chương V – NHIỆM VỤ, QUYỀN HẠN, TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN TRONG HOẠT ĐỘNG ĐẦU TƯ CÔNG > Điều 86. Nhiệm vụ, quyền… [Điều 86, Khoản 3] và (2) Chương V – NHIỆM VỤ, QUYỀN HẠN, TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN TRONG HOẠT ĐỘNG ĐẦU TƯ CÔNG > Điều 86. Nhiệm vụ, quyền… [Điều 86, Khoản 4].",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương V – NHIỆM VỤ, QUYỀN HẠN, TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN TRONG HOẠT ĐỘNG ĐẦU TƯ CÔNG > Điều 86. Nhiệm vụ, quyền hạn của Kiểm toán nhà nước > Khoản 3: Báo cáo Quốc hội, Ủy ban Thường vụ Quốc hội kết quả kiểm toán năm, kiểm toán chuyên đề và kết quả thực hiện kiến nghị kiểm toán về kế hoạch, chương trình, dự án.\n\nChương V – NHIỆM VỤ, QUYỀN HẠN, TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN TRONG HOẠT ĐỘNG ĐẦU TƯ CÔNG > Điều 86. Nhiệm vụ, quyền hạn của Kiểm toán nhà nước > Khoản 4: Tổ chức công bố, công khai báo cáo kiểm toán về kế hoạch, chương trình, dự án theo quy định của pháp luật.",
+      "gold_citation_groups": [
+        [
+          "39-2019-QH14#d86.k3"
+        ],
+        [
+          "39-2019-QH14#d86.k4"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Báo cáo Quốc hội, Ủy ban Thường vụ Quốc hội kết quả kiểm toán năm, kiểm toán chuyên đề và kết quả thực hiện kiến nghị kiểm toán về kế hoạch, chương trình, dự án",
+            "any_of": [
+              "Báo cáo Quốc hội, Ủy ban Thường vụ Quốc hội kết quả kiểm toán"
+            ],
+            "patterns": [
+              "(?is)quốc.*thường.*kiểm.*toán.*chuyên"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Tổ chức công bố, công khai báo cáo kiểm toán về kế hoạch, chương trình, dự án theo quy định của pháp luật",
+            "any_of": [
+              "Tổ chức công bố, công khai báo cáo kiểm toán về kế hoạch, chương"
+            ],
+            "patterns": [
+              "(?is)chức.*công.*khai.*kiểm.*toán"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_011",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản 57-2024-QH15, hãy trình bày đồng thời nội dung tại (1) Điều 5. Điều khoản thi hành > Khoản 3 và (2) Điều 5. Điều khoản thi hành > Khoản 4.",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 5. Điều khoản thi hành > Khoản 3: Việc thực hiện hợp đồng BT thanh toán bằng quỹ đất và hợp đồng BT thanh toán bằng ngân sách nhà nước quy định tại điểm b khoản 12 Điều 3 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025.\n\nĐiều 5. Điều khoản thi hành > Khoản 4: Quy định tại điểm a khoản 19 và khoản 20 Điều 1; khoản 2 Điều 2; các điểm b, c và d khoản 11 Điều 2 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025.",
+      "gold_citation_groups": [
+        [
+          "57-2024-QH15#d5.k3"
+        ],
+        [
+          "57-2024-QH15#d5.k4"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Việc thực hiện hợp đồng BT thanh toán bằng quỹ đất và hợp đồng BT thanh toán bằng ngân sách nhà nước quy định tại điểm b khoản 12 Điều 3 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025",
+            "any_of": [
+              "Việc thực hiện hợp đồng BT thanh toán bằng quỹ đất và hợp đồng"
+            ],
+            "patterns": [
+              "(?is)hiện.*đồng.*thanh.*toán.*ngân"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Quy định tại điểm a khoản 19 và khoản 20 Điều 1; khoản 2 Điều 2; các điểm b, c và d khoản 11 Điều 2 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025",
+            "any_of": [
+              "Quy định tại điểm a khoản 19 và khoản 20 Điều 1; khoản 2"
+            ],
+            "patterns": [
+              "(?is)điểm.*hiệu.*hành.*ngày.*tháng"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_012",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản “ĐẦU TƯ CÔNG” (58-2024-QH15), hãy trình bày đồng thời nội dung tại (1) Chương II – CHỦ TRƯƠNG ĐẦU TƯ VÀ QUYẾT ĐỊNH ĐẦU TƯ CHƯƠNG TRÌNH, DỰ ÁN ĐẦU TƯ CÔNG Mục 1. LẬP, THẨM ĐỊNH, QUYẾT ĐỊNH CHỦ TRƯƠNG… [Điều 38, Khoản 7] và (2) Chương II – CHỦ TRƯƠNG ĐẦU TƯ VÀ QUYẾT ĐỊNH ĐẦU TƯ CHƯƠNG TRÌNH, DỰ ÁN ĐẦU TƯ CÔNG Mục 1. LẬP, THẨM ĐỊNH, QUYẾT ĐỊNH CHỦ TRƯƠNG… [Điều 38, Khoản 8].",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương II – CHỦ TRƯƠNG ĐẦU TƯ VÀ QUYẾT ĐỊNH ĐẦU TƯ CHƯƠNG TRÌNH, DỰ ÁN ĐẦU TƯ CÔNG Mục 1. LẬP, THẨM ĐỊNH, QUYẾT ĐỊNH CHỦ TRƯƠNG ĐẦU TƯ > Điều 38. Thẩm quyền quyết định đầu tư chương trình, dự án > Khoản 7: Chính phủ quy định việc phân cấp thẩm quyền, trình tự, thủ tục quyết định đầu tư đối với chương trình, dự án sử dụng vốn từ nguồn thu hợp pháp của cơ quan nhà nước, đơn vị sự nghiệp công lập dành để đầu tư phù hợp với quy định về quyền tự chủ tài chính của các cơ quan, đơn vị.\n\nChương II – CHỦ TRƯƠNG ĐẦU TƯ VÀ QUYẾT ĐỊNH ĐẦU TƯ CHƯƠNG TRÌNH, DỰ ÁN ĐẦU TƯ CÔNG Mục 1. LẬP, THẨM ĐỊNH, QUYẾT ĐỊNH CHỦ TRƯƠNG ĐẦU TƯ > Điều 38. Thẩm quyền quyết định đầu tư chương trình, dự án > Khoản 8: Người đứng đầu Bộ, cơ quan trung ương, địa phương quyết định đầu tư chương trình, dự án chịu trách nhiệm về hiệu quả đầu tư các chương trình, dự án được phê duyệt.",
+      "gold_citation_groups": [
+        [
+          "58-2024-QH15#d38.k7"
+        ],
+        [
+          "58-2024-QH15#d38.k8"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Chính phủ quy định việc phân cấp thẩm quyền, trình tự, thủ tục quyết định đầu tư đối với chương trình, dự án sử dụng vốn từ nguồn thu hợp pháp của cơ quan nhà nước, đơn vị sự nghiệp công lập dành để đầu tư phù hợp với…",
+            "any_of": [
+              "Chính phủ quy định việc phân cấp thẩm quyền, trình tự, thủ tục quyết"
+            ],
+            "patterns": [
+              "(?is)phân.*thẩm.*quyền.*trình.*quyết"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Người đứng đầu Bộ, cơ quan trung ương, địa phương quyết định đầu tư chương trình, dự án chịu trách nhiệm về hiệu quả đầu tư các chương trình, dự án được phê duyệt",
+            "any_of": [
+              "Người đứng đầu Bộ, cơ quan trung ương, địa phương quyết định đầu tư"
+            ],
+            "patterns": [
+              "(?is)người.*đứng.*quan.*trung.*ương"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_013",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản “QUẢN LÝ VÀ ĐẦU TƯ VỐN NHÀ NƯỚC TẠI DOANH NGHIỆP” (68-2025-QH15), hãy trình bày đồng thời nội dung tại (1) Chương VIII – ĐIỀU KHOẢN THI HÀNH > Điều 59. Quy định chuyển tiếp > Khoản 6 và (2) Chương VIII – ĐIỀU KHOẢN THI HÀNH > Điều 59. Quy định chuyển tiếp > Khoản 7.",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương VIII – ĐIỀU KHOẢN THI HÀNH > Điều 59. Quy định chuyển tiếp > Khoản 6: Việc đánh giá, xếp loại doanh nghiệp; đánh giá người đại diện chủ sở hữu trực tiếp, người đại diện phần vốn nhà nước, Kiểm soát viên của năm tài chính từ năm 2025 trở về trước được thực hiện theo quy định của Luật số 69/2014/QH13 và các văn bản quy định chi tiết, hướng dẫn thi hành.\n\nChương VIII – ĐIỀU KHOẢN THI HÀNH > Điều 59. Quy định chuyển tiếp > Khoản 7: Trong thời gian thực hiện kế hoạch cơ cấu lại đã được cơ quan có thẩm quyền phê duyệt, các doanh nghiệp nhà nước được chuyển đổi từ doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ thành công ty cổ phần đang niêm yết, đăng ký giao dịch trên Sở Giao dịch chứng khoán chưa đáp ứng điều kiện công ty đại chúng về cơ cấu cổ đông theo quy định của Luật Chứng khoán số 54/2019/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 56/2024/QH15 thì không bị hủy tư cách công ty đại chúng.",
+      "gold_citation_groups": [
+        [
+          "68-2025-QH15#d59.k6"
+        ],
+        [
+          "68-2025-QH15#d59.k7"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Việc đánh giá, xếp loại doanh nghiệp; đánh giá người đại diện chủ sở hữu trực tiếp, người đại diện phần vốn nhà nước, Kiểm soát viên của năm tài chính từ năm 2025 trở về trước được thực hiện theo quy định của Luật số…",
+            "any_of": [
+              "Việc đánh giá, xếp loại doanh nghiệp; đánh giá người đại diện chủ sở"
+            ],
+            "patterns": [
+              "(?is)đánh.*loại.*doanh.*nghiệp.*người"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Trong thời gian thực hiện kế hoạch cơ cấu lại đã được cơ quan có thẩm quyền phê duyệt, các doanh nghiệp nhà nước được chuyển đổi từ doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ thành công ty cổ phần đang niêm yết…",
+            "any_of": [
+              "Trong thời gian thực hiện kế hoạch cơ cấu lại đã được cơ quan"
+            ],
+            "patterns": [
+              "(?is)thời.*gian.*hiện.*hoạch.*quan"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_014",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản “QUẢN LÝ, SỬ DỤNG VỐN NHÀ NƯỚC ĐẦU TƯ VÀO SẢN XUẤT, KINH DOANH TẠI DOANH NGHIỆP” (69-2014-QH13), hãy trình bày đồng thời nội dung tại (1) Chương III – QUẢN LÝ, SỬ DỤNG VỐN, TÀI SẢN TẠI DOANH NGHIỆP DO NHÀ NƯỚC NẮM GIỮ 100% VỐN ĐIỀU LỆ > Điều 30. Quản lý của… [Điều 30, Khoản 1, Điểm a] và (2) Chương III – QUẢN LÝ, SỬ DỤNG VỐN, TÀI SẢN TẠI DOANH NGHIỆP DO NHÀ NƯỚC NẮM GIỮ 100% VỐN ĐIỀU LỆ > Điều 30. Quản lý của… [Điều 30, Khoản 1, Điểm b].",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương III – QUẢN LÝ, SỬ DỤNG VỐN, TÀI SẢN TẠI DOANH NGHIỆP DO NHÀ NƯỚC NẮM GIỮ 100% VỐN ĐIỀU LỆ > Điều 30. Quản lý của doanh nghiệp đối với công ty con do doanh nghiệp nắm giữ 100% vốn điều lệ > Khoản 1 > Điểm a: Đối với công ty con do doanh nghiệp nắm giữ 100% vốn điều lệ: a) Quyết định thành lập, vốn điều lệ khi thành lập, mục tiêu, nhiệm vụ và ngành, nghề kinh doanh; quyết định điều chỉnh vốn điều lệ trong quá trình hoạt động, tổ chức lại, chuyển đổi sở hữu, giải thể và yêu cầu phá sản công ty con;\n\nChương III – QUẢN LÝ, SỬ DỤNG VỐN, TÀI SẢN TẠI DOANH NGHIỆP DO NHÀ NƯỚC NẮM GIỮ 100% VỐN ĐIỀU LỆ > Điều 30. Quản lý của doanh nghiệp đối với công ty con do doanh nghiệp nắm giữ 100% vốn điều lệ > Khoản 1 > Điểm b: Đối với công ty con do doanh nghiệp nắm giữ 100% vốn điều lệ: b) Ban hành quy chế tài chính của công ty con;",
+      "gold_citation_groups": [
+        [
+          "69-2014-QH13#d30.k1.pa"
+        ],
+        [
+          "69-2014-QH13#d30.k1.pb"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Đối với công ty con do doanh nghiệp nắm giữ 100% vốn điều lệ: a) Quyết định thành lập, vốn điều lệ khi thành lập, mục tiêu, nhiệm vụ và ngành, nghề kinh doanh; quyết định điều chỉnh vốn điều lệ trong quá trình hoạt…",
+            "any_of": [
+              "Đối với công ty con do doanh nghiệp nắm giữ 100% vốn điều lệ"
+            ],
+            "patterns": [
+              "(?is)công.*doanh.*nghiệp.*quyết.*thành"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Đối với công ty con do doanh nghiệp nắm giữ 100% vốn điều lệ: b) Ban hành quy chế tài chính của công ty con",
+            "any_of": [
+              "Đối với công ty con do doanh nghiệp nắm giữ 100% vốn điều lệ"
+            ],
+            "patterns": [
+              "(?is)công.*doanh.*nghiệp.*hành"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_015",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản 89-2026-ND-CP, hãy trình bày đồng thời nội dung tại (1) Chương III – TỔ CHỨC, HOẠT ĐỘNG CỦA CƠ SỞ ĐĂNG KIỂM > Điều 16. Thu hồi giấy chứng nhận đủ điều kiện hoạt động kiểm định của > Khoản 1 > Điểm c và (2) Chương III – TỔ CHỨC, HOẠT ĐỘNG CỦA CƠ SỞ ĐĂNG KIỂM > Điều 16. Thu hồi giấy chứng nhận đủ điều kiện hoạt động kiểm định của > Khoản 1 > Điểm d.",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương III – TỔ CHỨC, HOẠT ĐỘNG CỦA CƠ SỞ ĐĂNG KIỂM > Điều 16. Thu hồi giấy chứng nhận đủ điều kiện hoạt động kiểm định của > Khoản 1 > Điểm c: Cơ sở đăng kiểm bị thu hồi giấy chứng nhận đủ điều kiện hoạt động kiểm định khi vi phạm một trong các trường hợp sau đây: c) Bị tạm đình chỉ hoạt động kiểm định theo quy định tại Điều 15 của Nghị định này từ 03 lần trong thời gian 12 tháng liên tục;\n\nChương III – TỔ CHỨC, HOẠT ĐỘNG CỦA CƠ SỞ ĐĂNG KIỂM > Điều 16. Thu hồi giấy chứng nhận đủ điều kiện hoạt động kiểm định của > Khoản 1 > Điểm d: Cơ sở đăng kiểm bị thu hồi giấy chứng nhận đủ điều kiện hoạt động kiểm định khi vi phạm một trong các trường hợp sau đây: d) Bị xử phạt vi phạm hành chính từ 03 lần trở lên theo quy định tại Nghị định xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ điểm, phục hồi điểm giấy phép lái xe trong thời hạn 12 tháng liên tục;",
+      "gold_citation_groups": [
+        [
+          "89-2026-ND-CP#d16.k1.pc"
+        ],
+        [
+          "89-2026-ND-CP#d16.k1.pd"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Cơ sở đăng kiểm bị thu hồi giấy chứng nhận đủ điều kiện hoạt động kiểm định khi vi phạm một trong các trường hợp sau đây: c) Bị tạm đình chỉ hoạt động kiểm định theo quy định tại Điều 15 của Nghị định này từ 03 lần…",
+            "any_of": [
+              "Cơ sở đăng kiểm bị thu hồi giấy chứng nhận đủ điều kiện hoạt"
+            ],
+            "patterns": [
+              "(?is)đăng.*kiểm.*giấy.*chứng.*nhận"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Cơ sở đăng kiểm bị thu hồi giấy chứng nhận đủ điều kiện hoạt động kiểm định khi vi phạm một trong các trường hợp sau đây: d) Bị xử phạt vi phạm hành chính từ 03 lần trở lên theo quy định tại Nghị định xử phạt vi phạm…",
+            "any_of": [
+              "Cơ sở đăng kiểm bị thu hồi giấy chứng nhận đủ điều kiện hoạt"
+            ],
+            "patterns": [
+              "(?is)đăng.*kiểm.*giấy.*chứng.*nhận"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_016",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản 96-2026-ND-CP, hãy trình bày đồng thời nội dung tại (1) Điều 29. Xác định giá trị vốn đầu tư; giám định giá trị vốn đầu tư; giám định máy móc, thiết bị, dây chuyền công nghệ > Khoản 1 và (2) Điều 29. Xác định giá trị vốn đầu tư; giám định giá trị vốn đầu tư; giám định máy móc, thiết bị, dây chuyền công nghệ > Khoản 2.",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 29. Xác định giá trị vốn đầu tư; giám định giá trị vốn đầu tư; giám định máy móc, thiết bị, dây chuyền công nghệ > Khoản 1: Vốn đăng ký thực hiện dự án đầu tư được xác định trên cơ sở: a) Vốn góp của nhà đầu tư bằng tiền, máy móc, thiết bị, giá trị quyền sở hữu trí tuệ, công nghệ, bí quyết kỹ thuật, giá trị quyền sử dụng đất, tài sản khác theo pháp luật về dân sự, điều ước quốc tế về đầu tư; b) Vốn huy động để thực hiện dự án đầu tư; c) Lợi nhuận để lại của nhà đầu tư để tái đầu tư (nếu có).\n\nĐiều 29. Xác định giá trị vốn đầu tư; giám định giá trị vốn đầu tư; giám định máy móc, thiết bị, dây chuyền công nghệ > Khoản 2: Vốn đầu tư thực hiện của dự án đầu tư được xác định trên cơ sở vốn nhà đầu tư đã góp, huy động và lợi nhuận để lại để tái đầu tư trong quá trình thực hiện dự án. Nhà đầu tư tự xác định giá trị vốn đầu tư thực hiện của dự án đầu tư sau khi dự án được đưa vào khai thác, vận hành.",
+      "gold_citation_groups": [
+        [
+          "96-2026-ND-CP#d29.k1"
+        ],
+        [
+          "96-2026-ND-CP#d29.k2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Vốn đăng ký thực hiện dự án đầu tư được xác định trên cơ sở: a) Vốn góp của nhà đầu tư bằng tiền, máy móc, thiết bị, giá trị quyền sở hữu trí tuệ, công nghệ, bí quyết kỹ thuật, giá trị quyền sử dụng đất, tài sản khác…",
+            "any_of": [
+              "Vốn đăng ký thực hiện dự án đầu tư được xác định trên cơ"
+            ],
+            "patterns": [
+              "(?is)đăng.*hiện.*tiền.*thiết.*quyền"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Vốn đầu tư thực hiện của dự án đầu tư được xác định trên cơ sở vốn nhà đầu tư đã góp, huy động và lợi nhuận để lại để tái đầu tư trong quá trình thực hiện dự án. Nhà đầu tư tự xác định giá trị vốn đầu tư thực hiện của…",
+            "any_of": [
+              "Vốn đầu tư thực hiện của dự án đầu tư được xác định trên"
+            ],
+            "patterns": [
+              "(?is)hiện.*động.*nhuận.*trình.*khai"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_017",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản HIENPHAP2013, hãy trình bày đồng thời nội dung tại (1) Chương X – HỘI ĐỒNG BẦU CỬ QUỐC GIA, KIỂM TOÁN NHÀ NƯỚC > Điều 118 > Khoản 1 và (2) Chương X – HỘI ĐỒNG BẦU CỬ QUỐC GIA, KIỂM TOÁN NHÀ NƯỚC > Điều 118 > Khoản 2.",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương X – HỘI ĐỒNG BẦU CỬ QUỐC GIA, KIỂM TOÁN NHÀ NƯỚC > Điều 118 > Khoản 1: Kiểm toán nhà nước là cơ quan do Quốc hội thành lập, hoạt động độc lập và chỉ tuân theo pháp luật, thực hiện kiểm toán việc quản lý, sử dụng tài chính, tài sản công.\n\nChương X – HỘI ĐỒNG BẦU CỬ QUỐC GIA, KIỂM TOÁN NHÀ NƯỚC > Điều 118 > Khoản 2: Tổng Kiểm toán nhà nước là người đứng đầu Kiểm toán nhà nước, do Quốc hội bầu. Nhiệm kỳ của Tổng Kiểm toán nhà nước do luật định. Tổng Kiểm toán nhà nước chịu trách nhiệm và báo cáo kết quả kiểm toán, báo cáo công tác trước Quốc hội; trong thời gian Quốc hội không họp, chịu trách nhiệm và báo cáo trước Ủy ban thường vụ Quốc hội.",
+      "gold_citation_groups": [
+        [
+          "HIENPHAP2013#d118.k1"
+        ],
+        [
+          "HIENPHAP2013#d118.k2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Kiểm toán nhà nước là cơ quan do Quốc hội thành lập, hoạt động độc lập và chỉ tuân theo pháp luật, thực hiện kiểm toán việc quản lý, sử dụng tài chính, tài sản công",
+            "any_of": [
+              "Kiểm toán nhà nước là cơ quan do Quốc hội thành lập, hoạt động"
+            ],
+            "patterns": [
+              "(?is)kiểm.*toán.*nước.*quan.*quốc"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Tổng Kiểm toán nhà nước là người đứng đầu Kiểm toán nhà nước, do Quốc hội bầu. Nhiệm kỳ của Tổng Kiểm toán nhà nước do luật định. Tổng Kiểm toán nhà nước chịu trách nhiệm và báo cáo kết quả kiểm toán, báo cáo công tác…",
+            "any_of": [
+              "Tổng Kiểm toán nhà nước là người đứng đầu Kiểm toán nhà nước, do"
+            ],
+            "patterns": [
+              "(?is)tổng.*kiểm.*toán.*nước.*người"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_018",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản “ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ” (VANBANGOC_64.SIGNED), hãy trình bày đồng thời nội dung tại (1) Điều 18. Điều chỉnh chủ trương đầu tư dự án PPP > Khoản 3 và (2) Điều 18. Điều chỉnh chủ trương đầu tư dự án PPP > Khoản 4.",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 18. Điều chỉnh chủ trương đầu tư dự án PPP > Khoản 3: Trình tự trình cấp có thẩm quyền quyết định điều chỉnh chủ trương đầu tư dự án PPP thực hiện theo quy định tại Điều 13 của Luật này đối với nội dung điều chỉnh.\n\nĐiều 18. Điều chỉnh chủ trương đầu tư dự án PPP > Khoản 4: Hồ sơ điều chỉnh chủ trương đầu tư bao gồm: a) Tờ trình đề nghị điều chỉnh chủ trương đầu tư; b) Nội dung điều chỉnh báo cáo nghiên cứu tiền khả thi; c) Báo cáo thẩm định, báo cáo thẩm tra nội dung điều chỉnh báo cáo nghiên cứu tiền khả thi; d) Tài liệu pháp lý khác có liên quan của dự án.",
+      "gold_citation_groups": [
+        [
+          "VANBANGOC_64.SIGNED#d18.k3"
+        ],
+        [
+          "VANBANGOC_64.SIGNED#d18.k4"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Trình tự trình cấp có thẩm quyền quyết định điều chỉnh chủ trương đầu tư dự án PPP thực hiện theo quy định tại Điều 13 của Luật này đối với nội dung điều chỉnh",
+            "any_of": [
+              "Trình tự trình cấp có thẩm quyền quyết định điều chỉnh chủ trương đầu"
+            ],
+            "patterns": [
+              "(?is)trình.*thẩm.*quyền.*quyết.*chỉnh"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Hồ sơ điều chỉnh chủ trương đầu tư bao gồm: a) Tờ trình đề nghị điều chỉnh chủ trương đầu tư; b) Nội dung điều chỉnh báo cáo nghiên cứu tiền khả thi; c) Báo cáo thẩm định, báo cáo thẩm tra nội dung điều chỉnh báo cáo…",
+            "any_of": [
+              "Hồ sơ điều chỉnh chủ trương đầu tư bao gồm: a) Tờ trình đề"
+            ],
+            "patterns": [
+              "(?is)chỉnh.*trương.*trình.*nghị.*dung"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_019",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản “QUY ĐỊNH VỀ ĐẦU TƯ RA NƯỚC NGOÀI” (103-2026-ND-CP), hãy trình bày đồng thời nội dung tại (1) Điều 3. Giải thích từ ngữ Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: > Khoản 3 và (2) Điều 3. Giải thích từ ngữ Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: > Khoản 4.",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 3. Giải thích từ ngữ Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: > Khoản 3: Bản sao hợp lệ là bản sao được cấp từ sổ gốc hoặc bản sao được chứng thực từ bản chính bởi cơ quan, tổ chức có thẩm quyền hoặc từ cơ sở dữ liệu quốc gia đối với trường hợp thông tin gốc được lưu trữ trên cơ sở dữ liệu quốc gia về dân cư, đăng ký doanh nghiệp và đầu tư.\n\nĐiều 3. Giải thích từ ngữ Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: > Khoản 4: Bộ hồ sơ gốc là bộ hồ sơ thực hiện thủ tục đầu tư ra nước ngoài gồm các giấy tờ là bản gốc, bản chính hoặc bản sao hợp lệ, trừ tài liệu tiếng nước ngoài và bản dịch tiếng Việt kèm theo.",
+      "gold_citation_groups": [
+        [
+          "103-2026-ND-CP#d3.k3"
+        ],
+        [
+          "103-2026-ND-CP#d3.k4"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Bản sao hợp lệ là bản sao được cấp từ sổ gốc hoặc bản sao được chứng thực từ bản chính bởi cơ quan, tổ chức có thẩm quyền hoặc từ cơ sở dữ liệu quốc gia đối với trường hợp thông tin gốc được lưu trữ trên cơ sở dữ liệu…",
+            "any_of": [
+              "Bản sao hợp lệ là bản sao được cấp từ sổ gốc hoặc bản"
+            ],
+            "patterns": [
+              "(?is)chứng.*quan.*chức.*thẩm.*quyền"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Bộ hồ sơ gốc là bộ hồ sơ thực hiện thủ tục đầu tư ra nước ngoài gồm các giấy tờ là bản gốc, bản chính hoặc bản sao hợp lệ, trừ tài liệu tiếng nước ngoài và bản dịch tiếng Việt kèm theo",
+            "any_of": [
+              "Bộ hồ sơ gốc là bộ hồ sơ thực hiện thủ tục đầu tư"
+            ],
+            "patterns": [
+              "(?is)hiện.*nước.*ngoài.*giấy.*liệu"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_020",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản “Quy định về đầu tư xây dựng, quản lý khai thác cảng cạn” (106-2026-ND-CP), hãy trình bày đồng thời nội dung tại (1) Chương III – QUẢN LÝ HOẠT ĐỘNG CỦA CẢNG CẠN VÀ QUYỀN HẠN, TRÁCH NHIỆM CỦA CÁC CƠ QUAN, TỔ CHỨC TẠI CẢNG CẠN > Điều 23.… [Điều 23, Khoản 1, Điểm c] và (2) Chương III – QUẢN LÝ HOẠT ĐỘNG CỦA CẢNG CẠN VÀ QUYỀN HẠN, TRÁCH NHIỆM CỦA CÁC CƠ QUAN, TỔ CHỨC TẠI CẢNG CẠN > Điều 23.… [Điều 23, Khoản 1, Điểm d].",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương III – QUẢN LÝ HOẠT ĐỘNG CỦA CẢNG CẠN VÀ QUYỀN HẠN, TRÁCH NHIỆM CỦA CÁC CƠ QUAN, TỔ CHỨC TẠI CẢNG CẠN > Điều 23. Trách nhiệm và quyền hạn của chủ đầu tư, doanh nghiệp > Khoản 1 > Điểm c: Trách nhiệm của chủ đầu tư, doanh nghiệp khai thác cảng cạn c) Phối hợp với cơ quan, tổ chức, cá nhân trong việc ngăn chặn các hành vi buôn lậu, gian lận thương mại, trốn thuế và các hành vi trái pháp luật khác tại cảng cạn; kê khai, niêm yết giá dịch vụ tại cảng cạn theo quy định; thực hiện các quy định về kết nối dữ liệu số qua hệ thống cơ sở dữ liệu quốc gia, cơ chế một cửa quốc gia;\n\nChương III – QUẢN LÝ HOẠT ĐỘNG CỦA CẢNG CẠN VÀ QUYỀN HẠN, TRÁCH NHIỆM CỦA CÁC CƠ QUAN, TỔ CHỨC TẠI CẢNG CẠN > Điều 23. Trách nhiệm và quyền hạn của chủ đầu tư, doanh nghiệp > Khoản 1 > Điểm d: Trách nhiệm của chủ đầu tư, doanh nghiệp khai thác cảng cạn d) Định kỳ trước ngày 20 tháng 12 hàng năm, báo cáo Bộ Xây dựng (qua Cục Hàng hải và Đường thủy Việt Nam) và Ủy ban nhân dân cấp tỉnh về tình hình hoạt động của khu vực cảng cạn theo Mẫu số 03 tại Phụ lục ban hành kèm theo Nghị định này hoặc báo cáo đột xuất theo yêu cầu của Bộ Xây dựng hoặc Ủy ban nhân dân cấp tỉnh;",
+      "gold_citation_groups": [
+        [
+          "106-2026-ND-CP#d23.k1.pc"
+        ],
+        [
+          "106-2026-ND-CP#d23.k1.pd"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Trách nhiệm của chủ đầu tư, doanh nghiệp khai thác cảng cạn c) Phối hợp với cơ quan, tổ chức, cá nhân trong việc ngăn chặn các hành vi buôn lậu, gian lận thương mại, trốn thuế và các hành vi trái pháp luật khác tại cảng…",
+            "any_of": [
+              "Trách nhiệm của chủ đầu tư, doanh nghiệp khai thác cảng cạn c) Phối"
+            ],
+            "patterns": [
+              "(?is)trách.*nhiệm.*doanh.*nghiệp.*khai"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Trách nhiệm của chủ đầu tư, doanh nghiệp khai thác cảng cạn d) Định kỳ trước ngày 20 tháng 12 hàng năm, báo cáo Bộ Xây dựng (qua Cục Hàng hải và Đường thủy Việt Nam) và Ủy ban nhân dân cấp tỉnh về tình hình hoạt động…",
+            "any_of": [
+              "Trách nhiệm của chủ đầu tư, doanh nghiệp khai thác cảng cạn d) Định"
+            ],
+            "patterns": [
+              "(?is)trách.*nhiệm.*doanh.*nghiệp.*khai"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_021",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản “QUY ĐỊNH CHI TIẾT VỀ VIỆC XỬ LÝ VƯỚNG MẮC CỦA DỰ ÁN BOT GIAO THÔNG” (122-2026-ND-CP), hãy trình bày đồng thời nội dung tại (1) Chương II – XỬ LÝ VƯỚNG MẮC GIẢM DOANH THU CỦA CÁC DỰ ÁN BOT TRONG LĨNH VỰC ĐƯỜNG BỘ > Điều 7. Trách nhiệm của nhà đầu tư, doanh… [Điều 7, Khoản 1] và (2) Chương II – XỬ LÝ VƯỚNG MẮC GIẢM DOANH THU CỦA CÁC DỰ ÁN BOT TRONG LĨNH VỰC ĐƯỜNG BỘ > Điều 7. Trách nhiệm của nhà đầu tư, doanh… [Điều 7, Khoản 4].",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương II – XỬ LÝ VƯỚNG MẮC GIẢM DOANH THU CỦA CÁC DỰ ÁN BOT TRONG LĨNH VỰC ĐƯỜNG BỘ > Điều 7. Trách nhiệm của nhà đầu tư, doanh nghiệp dự án và bên cho vay > Khoản 1: Trên cơ sở doanh thu thực tế và kết quả tính toán mức vốn nhà nước chia sẻ phần giảm doanh thu quy định tại khoản 3 Điều 6 Nghị định này, nhà đầu tư, doanh nghiệp dự án và bên cho vay tính toán giảm tỷ suất lợi nhuận trên vốn chủ sở hữu, giảm lãi suất vốn vay, điều chỉnh phương án trả nợ trong phương án tài chính, bảo đảm phương án tài chính hiệu quả, không phát sinh tăng phí sử dụng dịch vụ đường bộ so với hợp đồng đã ký, không kéo dài thời gian thu phí so với hợp đồng đã ký.\n\nChương II – XỬ LÝ VƯỚNG MẮC GIẢM DOANH THU CỦA CÁC DỰ ÁN BOT TRONG LĨNH VỰC ĐƯỜNG BỘ > Điều 7. Trách nhiệm của nhà đầu tư, doanh nghiệp dự án và bên cho vay > Khoản 4: Trong quá trình thực hiện hợp đồng theo phương án tài chính điều chỉnh tại khoản 2 Điều này, trường hợp doanh thu thực tế tăng cao hơn so với doanh thu dự kiến trong phương án tài chính điều chỉnh, các bên ký kết hợp đồng cập nhật phương án tài chính để rút ngắn thời gian thu phí của dự án. Cơ quan ký kết hợp đồng có trách nhiệm giám sát phần tăng doanh thu (nếu có) và thực hiện cập nhật phương án tài chính để rút ngắn thời gian thu phí của dự án.",
+      "gold_citation_groups": [
+        [
+          "122-2026-ND-CP#d7.k1"
+        ],
+        [
+          "122-2026-ND-CP#d7.k4"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Trên cơ sở doanh thu thực tế và kết quả tính toán mức vốn nhà nước chia sẻ phần giảm doanh thu quy định tại khoản 3 Điều 6 Nghị định này, nhà đầu tư, doanh nghiệp dự án và bên cho vay tính toán giảm tỷ suất lợi nhuận…",
+            "any_of": [
+              "Trên cơ sở doanh thu thực tế và kết quả tính toán mức vốn"
+            ],
+            "patterns": [
+              "(?is)doanh.*tính.*toán.*nước.*chia"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Trong quá trình thực hiện hợp đồng theo phương án tài chính điều chỉnh tại khoản 2 Điều này, trường hợp doanh thu thực tế tăng cao hơn so với doanh thu dự kiến trong phương án tài chính điều chỉnh, các bên ký kết hợp…",
+            "any_of": [
+              "Trong quá trình thực hiện hợp đồng theo phương án tài chính điều chỉnh"
+            ],
+            "patterns": [
+              "(?is)trình.*hiện.*đồng.*phương.*chỉnh"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_022",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản “VỀ QUẢN LÝ HOẠT ĐỘNG KINH DOANH THEO PHƯƠNG THỨC ĐA CẤP” (137-2026-ND-CP), hãy trình bày đồng thời nội dung tại (1) Chương V – HOẠT ĐỘNG BÁN HÀNG ĐA CẤP > Điều 41. Trách nhiệm của người tham gia bán hàng đa cấp > Khoản 1 > Điểm a và (2) Chương V – HOẠT ĐỘNG BÁN HÀNG ĐA CẤP > Điều 41. Trách nhiệm của người tham gia bán hàng đa cấp > Khoản 1 > Điểm b.",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương V – **HOẠT ĐỘNG BÁN HÀNG ĐA CẤP** > Điều 41. Trách nhiệm của người tham gia bán hàng đa cấp > Khoản 1 > Điểm a: Người tham gia bán hàng đa cấp có trách nhiệm: a) Lưu giữ hợp đồng tham gia bán hàng đa cấp;\n\nChương V – **HOẠT ĐỘNG BÁN HÀNG ĐA CẤP** > Điều 41. Trách nhiệm của người tham gia bán hàng đa cấp > Khoản 1 > Điểm b: Người tham gia bán hàng đa cấp có trách nhiệm: b) Chỉ thực hiện các hoạt động tiếp thị, bán hàng và phát triển mạng lưới bán hàng đa cấp sau khi được cấp Thẻ thành viên;",
+      "gold_citation_groups": [
+        [
+          "137-2026-ND-CP#d41.k1.pa"
+        ],
+        [
+          "137-2026-ND-CP#d41.k1.pb"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Người tham gia bán hàng đa cấp có trách nhiệm: a) Lưu giữ hợp đồng tham gia bán hàng đa cấp",
+            "any_of": [
+              "Người tham gia bán hàng đa cấp có trách nhiệm: a) Lưu giữ hợp"
+            ],
+            "patterns": [
+              "(?is)người.*tham.*hàng.*trách.*nhiệm"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Người tham gia bán hàng đa cấp có trách nhiệm: b) Chỉ thực hiện các hoạt động tiếp thị, bán hàng và phát triển mạng lưới bán hàng đa cấp sau khi được cấp Thẻ thành viên",
+            "any_of": [
+              "Người tham gia bán hàng đa cấp có trách nhiệm: b) Chỉ thực hiện"
+            ],
+            "patterns": [
+              "(?is)người.*tham.*hàng.*trách.*nhiệm"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_023",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản 143-2025-QH15, hãy trình bày đồng thời nội dung tại (1) Điều 27. Thẩm quyền cấp, điều chỉnh và thu hồi Giấy chứng nhận đăng > Khoản 3 và (2) Điều 27. Thẩm quyền cấp, điều chỉnh và thu hồi Giấy chứng nhận đăng > Khoản 4.",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 27. Thẩm quyền cấp, điều chỉnh và thu hồi Giấy chứng nhận đăng > Khoản 3: Cơ quan đăng ký đầu tư nơi nhà đầu tư thực hiện dự án đầu tư đặt hoặc dự kiến đặt văn phòng điều hành để thực hiện dự án đầu tư cấp, điều chỉnh, thu hồi Giấy chứng nhận đăng ký đầu tư đối với dự án đầu tư sau đây: a) Dự án đầu tư thực hiện tại 02 đơn vị hành chính cấp tỉnh trở lên; b) Dự án đầu tư thực hiện ở trong và ngoài khu công nghiệp, khu chế xuất, khu công nghệ cao và khu kinh tế; c) Dự án đầu tư trong khu công nghiệp, khu chế xuất, khu công nghệ cao, khu công nghệ số tập trung, khu kinh tế nơi chưa thành lập Ban quản lý khu công nghiệp, khu chế xuất, khu công nghệ cao, khu kinh tế.\n\nĐiều 27. Thẩm quyền cấp, điều chỉnh và thu hồi Giấy chứng nhận đăng > Khoản 4: Cơ quan tiếp nhận hồ sơ dự án đầu tư là cơ quan có thẩm quyền cấp Giấy chứng nhận đăng ký đầu tư, trừ trường hợp dự án quy định tại khoản 1 và khoản 2 Điều 25 của Luật này.",
+      "gold_citation_groups": [
+        [
+          "143-2025-QH15#d27.k3"
+        ],
+        [
+          "143-2025-QH15#d27.k4"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Cơ quan đăng ký đầu tư nơi nhà đầu tư thực hiện dự án đầu tư đặt hoặc dự kiến đặt văn phòng điều hành để thực hiện dự án đầu tư cấp, điều chỉnh, thu hồi Giấy chứng nhận đăng ký đầu tư đối với dự án đầu tư sau đây: a) Dự…",
+            "any_of": [
+              "Cơ quan đăng ký đầu tư nơi nhà đầu tư thực hiện dự án"
+            ],
+            "patterns": [
+              "(?is)quan.*đăng.*hiện.*kiến.*phòng"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Cơ quan tiếp nhận hồ sơ dự án đầu tư là cơ quan có thẩm quyền cấp Giấy chứng nhận đăng ký đầu tư, trừ trường hợp dự án quy định tại khoản 1 và khoản 2 Điều 25 của Luật này",
+            "any_of": [
+              "Cơ quan tiếp nhận hồ sơ dự án đầu tư là cơ quan có"
+            ],
+            "patterns": [
+              "(?is)quan.*tiếp.*nhận.*thẩm.*quyền"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_024",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản “SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA CÁC NGHỊ ĐỊNH QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP THI HÀNH LUẬT ĐẤU THẦU” (17-2025-ND-CP), hãy trình bày đồng thời nội dung tại (1) Điều 44b. Quy trình, thủ tục quyết định áp dụng lựa chọn nhà đầu tư trong trường hợp đặc biệt > Khoản 2 và (2) Điều 44b. Quy trình, thủ tục quyết định áp dụng lựa chọn nhà đầu tư trong trường hợp đặc biệt > Khoản 3.",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 44b. Quy trình, thủ tục quyết định áp dụng lựa chọn nhà đầu tư trong trường hợp đặc biệt > Khoản 2: Cơ quan có thẩm quyền có văn bản lấy ý kiến các bộ, cơ quan có liên quan về sự cần thiết và lý do phải áp dụng lựa chọn nhà đầu tư trong trường hợp đặc biệt, trong đó gồm: a) Bộ Quốc phòng, Bộ Công an, Bộ Ngoại giao đối với dự án quy định tại khoản 2 Điều 44a của Nghị định này; b) Các bộ, cơ quan có liên quan đối với dự án quy định tại khoản 1 và khoản 3 Điều 44a của Nghị định này (nếu cần).\n\nĐiều 44b. Quy trình, thủ tục quyết định áp dụng lựa chọn nhà đầu tư trong trường hợp đặc biệt > Khoản 3: Cơ quan được lấy ý kiến có ý kiến về sự cần thiết và lý do phải áp dụng lựa chọn nhà đầu tư trong trường hợp đặc biệt gửi cơ quan có thẩm quyền.",
+      "gold_citation_groups": [
+        [
+          "17-2025-ND-CP#d44b.k2"
+        ],
+        [
+          "17-2025-ND-CP#d44b.k3"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Cơ quan có thẩm quyền có văn bản lấy ý kiến các bộ, cơ quan có liên quan về sự cần thiết và lý do phải áp dụng lựa chọn nhà đầu tư trong trường hợp đặc biệt, trong đó gồm: a) Bộ Quốc phòng, Bộ Công an, Bộ Ngoại giao đối…",
+            "any_of": [
+              "Cơ quan có thẩm quyền có văn bản lấy ý kiến các bộ, cơ"
+            ],
+            "patterns": [
+              "(?is)quan.*thẩm.*quyền.*kiến.*liên"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Cơ quan được lấy ý kiến có ý kiến về sự cần thiết và lý do phải áp dụng lựa chọn nhà đầu tư trong trường hợp đặc biệt gửi cơ quan có thẩm quyền",
+            "any_of": [
+              "Cơ quan được lấy ý kiến có ý kiến về sự cần thiết và"
+            ],
+            "patterns": [
+              "(?is)quan.*kiến.*thiết.*phải.*dụng"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_025",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản “QUY ĐỊNH VỀ ĐIỀU KIỆN NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG, HỆ THỐNG THÔNG TIN, CƠ SỞ DỮ LIỆU QUỐC GIA VỀ HOẠT ĐỘNG XÂY DỰNG” (212-2026-ND-CP), hãy trình bày đồng thời nội dung tại (1) Chương I – NHỮNG QUY ĐỊNH CHUNG > Điều 3. Giải thích từ ngữ > Khoản 7 > Điểm m và (2) Chương I – NHỮNG QUY ĐỊNH CHUNG > Điều 3. Giải thích từ ngữ > Khoản 7 > Điểm n.",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương I – **NHỮNG QUY ĐỊNH CHUNG** > Điều 3. Giải thích từ ngữ > Khoản 7 > Điểm m: Thủ tục là một trong các thủ tục hành chính, thủ tục nội bộ, các nghiệp vụ do cơ quan nhà nước có thẩm quyền, tổ chức, cá nhân thực hiện theo quy định của pháp luật về xây dựng và pháp luật khác có liên quan. Tùy theo yêu cầu quản lý, thủ tục bao gồm các loại sau: m) Báo cáo thông tin sự cố công trình xây dựng trong quá trình thi công và khai thác, vận hành;\n\nChương I – **NHỮNG QUY ĐỊNH CHUNG** > Điều 3. Giải thích từ ngữ > Khoản 7 > Điểm n: Thủ tục là một trong các thủ tục hành chính, thủ tục nội bộ, các nghiệp vụ do cơ quan nhà nước có thẩm quyền, tổ chức, cá nhân thực hiện theo quy định của pháp luật về xây dựng và pháp luật khác có liên quan. Tùy theo yêu cầu quản lý, thủ tục bao gồm các loại sau: n) Cấp chứng chỉ hành nghề hoạt động xây dựng;",
+      "gold_citation_groups": [
+        [
+          "212-2026-ND-CP#d3.k7.pm"
+        ],
+        [
+          "212-2026-ND-CP#d3.k7.pn"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Thủ tục là một trong các thủ tục hành chính, thủ tục nội bộ, các nghiệp vụ do cơ quan nhà nước có thẩm quyền, tổ chức, cá nhân thực hiện theo quy định của pháp luật về xây dựng và pháp luật khác có liên quan. Tùy theo…",
+            "any_of": [
+              "Thủ tục là một trong các thủ tục hành chính, thủ tục nội bộ"
+            ],
+            "patterns": [
+              "(?is)hành.*nghiệp.*quan.*nước.*thẩm"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Thủ tục là một trong các thủ tục hành chính, thủ tục nội bộ, các nghiệp vụ do cơ quan nhà nước có thẩm quyền, tổ chức, cá nhân thực hiện theo quy định của pháp luật về xây dựng và pháp luật khác có liên quan. Tùy theo…",
+            "any_of": [
+              "Thủ tục là một trong các thủ tục hành chính, thủ tục nội bộ"
+            ],
+            "patterns": [
+              "(?is)hành.*nghiệp.*quan.*nước.*thẩm"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_026",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản 241-2026-ND-CP, hãy trình bày đồng thời nội dung tại (1) Điều 28. Điều khoản chuyển tiếp > Khoản 1 và (2) Điều 28. Điều khoản chuyển tiếp > Khoản 2.",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 28. Điều khoản chuyển tiếp > Khoản 1: Các cơ quan có thẩm quyền đã tiếp nhận hồ sơ đề nghị giải quyết thủ tục hành chính trước ngày Nghị định này có hiệu lực thi hành thì tiếp tục thực hiện theo quy định của Nghị định số 165/2024/NĐ-CP, Nghị định số 140/2025/NĐ-CP, Nghị định số 144/2025/NĐ-CP. Đối với trường hợp tiếp nhận hồ sơ đề nghị giải quyết thủ tục hành chính kể từ ngày Nghị định này có hiệu lực thi hành thì thực hiện theo quy định của Nghị định này.\n\nĐiều 28. Điều khoản chuyển tiếp > Khoản 2: Đối với quốc lộ, đường cao tốc thuộc quy hoạch mạng lưới đường bộ đã được cấp có thẩm quyền giao Ủy ban nhân dân cấp tỉnh đầu tư, xây dựng, quản lý, vận hành, khai thác, bảo trì trước ngày Nghị định này có hiệu lực thi hành, Ủy ban nhân dân cấp tỉnh tiếp tục thực hiện theo văn bản giao.",
+      "gold_citation_groups": [
+        [
+          "241-2026-ND-CP#d28.k1"
+        ],
+        [
+          "241-2026-ND-CP#d28.k2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Các cơ quan có thẩm quyền đã tiếp nhận hồ sơ đề nghị giải quyết thủ tục hành chính trước ngày Nghị định này có hiệu lực thi hành thì tiếp tục thực hiện theo quy định của Nghị định số 165/2024/NĐ-CP, Nghị định số…",
+            "any_of": [
+              "Các cơ quan có thẩm quyền đã tiếp nhận hồ sơ đề nghị giải"
+            ],
+            "patterns": [
+              "(?is)quan.*thẩm.*quyền.*tiếp.*nhận"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Đối với quốc lộ, đường cao tốc thuộc quy hoạch mạng lưới đường bộ đã được cấp có thẩm quyền giao Ủy ban nhân dân cấp tỉnh đầu tư, xây dựng, quản lý, vận hành, khai thác, bảo trì trước ngày Nghị định này có hiệu lực thi…",
+            "any_of": [
+              "Đối với quốc lộ, đường cao tốc thuộc quy hoạch mạng lưới đường bộ"
+            ],
+            "patterns": [
+              "(?is)quốc.*đường.*thuộc.*hoạch.*mạng"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_027",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản 272-2026-ND-CP, hãy trình bày đồng thời nội dung tại (1) Điều 5. Điều kiện của đơn vị khảo sát dự án điện gió ngoài khơi > Khoản 2 > Điểm b và (2) Điều 5. Điều kiện của đơn vị khảo sát dự án điện gió ngoài khơi > Khoản 2 > Điểm c.",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 5. Điều kiện của đơn vị khảo sát dự án điện gió ngoài khơi > Khoản 2 > Điểm b: Đơn vị khảo sát phải đáp ứng các điều kiện sau: b) Đáp ứng điều kiện và năng lực theo quy định tại các điểm a, b, đ, e khoản 1 Điều 26 của Nghị định số 58/2025/NĐ-CP quy định chi tiết một số điều của Luật Điện lực về phát triển điện năng lượng tái tạo, điện năng lượng mới;\n\nĐiều 5. Điều kiện của đơn vị khảo sát dự án điện gió ngoài khơi > Khoản 2 > Điểm c: Đơn vị khảo sát phải đáp ứng các điều kiện sau: c) Có cam kết không yêu cầu hoàn trả kinh phí trong mọi trường hợp, trừ trường hợp đơn vị khảo sát là doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ được cấp có thẩm quyền giao nhiệm vụ theo quy định tại điểm a khoản 2 Điều 27 của Luật Điện lực số 61/2024/QH15.",
+      "gold_citation_groups": [
+        [
+          "272-2026-ND-CP#d5.k2.pb"
+        ],
+        [
+          "272-2026-ND-CP#d5.k2.pc"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Đơn vị khảo sát phải đáp ứng các điều kiện sau: b) Đáp ứng điều kiện và năng lực theo quy định tại các điểm a, b, đ, e khoản 1 Điều 26 của Nghị định số 58/2025/NĐ-CP quy định chi tiết một số điều của Luật Điện lực về…",
+            "any_of": [
+              "Đơn vị khảo sát phải đáp ứng các điều kiện sau: b) Đáp ứng"
+            ],
+            "patterns": [
+              "(?is)khảo.*phải.*kiện.*năng.*điểm"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Đơn vị khảo sát phải đáp ứng các điều kiện sau: c) Có cam kết không yêu cầu hoàn trả kinh phí trong mọi trường hợp, trừ trường hợp đơn vị khảo sát là doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ được cấp có thẩm…",
+            "any_of": [
+              "Đơn vị khảo sát phải đáp ứng các điều kiện sau: c) Có cam"
+            ],
+            "patterns": [
+              "(?is)khảo.*phải.*kiện.*hoàn.*kinh"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "MULTI_028",
+      "enabled": true,
+      "category": "multi_hop",
+      "question": "Theo văn bản “ĐẦU TƯ CÔNG” (39-2019-QH14), hãy trình bày đồng thời nội dung tại (1) Chương III – LẬP, THẨM ĐỊNH, PHÊ DUYỆT VÀ GIAO KẾ HOẠCH ĐẦU TƯ CÔNG Mục 1. QUY ĐỊNH CHUNG > Điều 47. Căn cứ lập kế hoạch… [Điều 47, Khoản 1, Điểm c] và (2) Chương III – LẬP, THẨM ĐỊNH, PHÊ DUYỆT VÀ GIAO KẾ HOẠCH ĐẦU TƯ CÔNG Mục 1. QUY ĐỊNH CHUNG > Điều 47. Căn cứ lập kế hoạch… [Điều 47, Khoản 1, Điểm d].",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Chương III – LẬP, THẨM ĐỊNH, PHÊ DUYỆT VÀ GIAO KẾ HOẠCH ĐẦU TƯ CÔNG Mục 1. QUY ĐỊNH CHUNG > Điều 47. Căn cứ lập kế hoạch đầu tư công trung hạn và hằng năm > Khoản 1 > Điểm c: Căn cứ lập kế hoạch đầu tư công trung hạn bao gồm: c) Quy hoạch có liên quan theo quy định của pháp luật về quy hoạch;\n\nChương III – LẬP, THẨM ĐỊNH, PHÊ DUYỆT VÀ GIAO KẾ HOẠCH ĐẦU TƯ CÔNG Mục 1. QUY ĐỊNH CHUNG > Điều 47. Căn cứ lập kế hoạch đầu tư công trung hạn và hằng năm > Khoản 1 > Điểm d: Căn cứ lập kế hoạch đầu tư công trung hạn bao gồm: d) Nhu cầu và dự báo khả năng huy động các nguồn vốn đầu tư để xây dựng kết cấu hạ tầng kinh tế - xã hội, khả năng cân đối vốn ngân sách nhà nước;",
+      "gold_citation_groups": [
+        [
+          "39-2019-QH14#d47.k1.pc"
+        ],
+        [
+          "39-2019-QH14#d47.k1.pd"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "hop_1_fact",
+            "description": "Căn cứ lập kế hoạch đầu tư công trung hạn bao gồm: c) Quy hoạch có liên quan theo quy định của pháp luật về quy hoạch",
+            "any_of": [
+              "Căn cứ lập kế hoạch đầu tư công trung hạn bao gồm: c) Quy"
+            ],
+            "patterns": [
+              "(?is)hoạch.*công.*trung.*liên.*quan"
+            ]
+          },
+          {
+            "fact_id": "hop_2_fact",
+            "description": "Căn cứ lập kế hoạch đầu tư công trung hạn bao gồm: d) Nhu cầu và dự báo khả năng huy động các nguồn vốn đầu tư để xây dựng kết cấu hạ tầng kinh tế - xã hội, khả năng cân đối vốn ngân sách nhà nước",
+            "any_of": [
+              "Căn cứ lập kế hoạch đầu tư công trung hạn bao gồm: d) Nhu"
+            ],
+            "patterns": [
+              "(?is)hoạch.*công.*trung.*năng.*động"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cần kết hợp hai chunk vật lý khác nhau trong cùng điều; cần chuyên gia duyệt trước báo cáo."
+    },
+    {
+      "id": "OOS_001",
+      "enabled": true,
+      "category": "out_of_scope",
+      "question": "Điều kiện nhận nuôi con nuôi có yếu tố nước ngoài theo pháp luật Việt Nam là gì?",
+      "expected_statuses": [
+        "refusal"
+      ],
+      "gold_answer": "",
+      "gold_citation_groups": [],
+      "answer_rubric": {
+        "required_facts": [],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cụm kiểm tra phạm vi “nuôi con nuôi” không xuất hiện trong corpus tại thời điểm sinh dataset; hệ thống phải từ chối và không hiển thị citation."
+    },
+    {
+      "id": "OOS_002",
+      "enabled": true,
+      "category": "out_of_scope",
+      "question": "Theo Bộ luật Dân sự, hàng thừa kế thứ nhất gồm những ai và được chia di sản theo nguyên tắc nào?",
+      "expected_statuses": [
+        "refusal"
+      ],
+      "gold_answer": "",
+      "gold_citation_groups": [],
+      "answer_rubric": {
+        "required_facts": [],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cụm kiểm tra phạm vi “hàng thừa kế thứ nhất” không xuất hiện trong corpus tại thời điểm sinh dataset; hệ thống phải từ chối và không hiển thị citation."
+    },
+    {
+      "id": "OOS_003",
+      "enabled": true,
+      "category": "out_of_scope",
+      "question": "Theo Bộ luật Hình sự, hành vi trộm cắp tài sản có thể bị phạt tù tối đa bao nhiêu năm?",
+      "expected_statuses": [
+        "refusal"
+      ],
+      "gold_answer": "",
+      "gold_citation_groups": [],
+      "answer_rubric": {
+        "required_facts": [],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cụm kiểm tra phạm vi “trộm cắp tài sản” không xuất hiện trong corpus tại thời điểm sinh dataset; hệ thống phải từ chối và không hiển thị citation."
+    },
+    {
+      "id": "OOS_004",
+      "enabled": true,
+      "category": "out_of_scope",
+      "question": "Theo pháp luật lao động, người lao động làm đủ 12 tháng được nghỉ hằng năm bao nhiêu ngày?",
+      "expected_statuses": [
+        "refusal"
+      ],
+      "gold_answer": "",
+      "gold_citation_groups": [],
+      "answer_rubric": {
+        "required_facts": [],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cụm kiểm tra phạm vi “nghỉ hằng năm” không xuất hiện trong corpus tại thời điểm sinh dataset; hệ thống phải từ chối và không hiển thị citation."
+    },
+    {
+      "id": "OOS_005",
+      "enabled": true,
+      "category": "out_of_scope",
+      "question": "Điều kiện để lao động nữ được hưởng chế độ thai sản theo pháp luật bảo hiểm xã hội là gì?",
+      "expected_statuses": [
+        "refusal"
+      ],
+      "gold_answer": "",
+      "gold_citation_groups": [],
+      "answer_rubric": {
+        "required_facts": [],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cụm kiểm tra phạm vi “chế độ thai sản” không xuất hiện trong corpus tại thời điểm sinh dataset; hệ thống phải từ chối và không hiển thị citation."
+    },
+    {
+      "id": "OOS_006",
+      "enabled": true,
+      "category": "out_of_scope",
+      "question": "Mức giảm trừ gia cảnh khi tính thuế thu nhập cá nhân hiện được xác định như thế nào?",
+      "expected_statuses": [
+        "refusal"
+      ],
+      "gold_answer": "",
+      "gold_citation_groups": [],
+      "answer_rubric": {
+        "required_facts": [],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cụm kiểm tra phạm vi “giảm trừ gia cảnh” không xuất hiện trong corpus tại thời điểm sinh dataset; hệ thống phải từ chối và không hiển thị citation."
+    },
+    {
+      "id": "OOS_007",
+      "enabled": true,
+      "category": "out_of_scope",
+      "question": "Thời hạn bảo hộ nhãn hiệu theo pháp luật sở hữu trí tuệ là bao lâu và có được gia hạn không?",
+      "expected_statuses": [
+        "refusal"
+      ],
+      "gold_answer": "",
+      "gold_citation_groups": [],
+      "answer_rubric": {
+        "required_facts": [],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cụm kiểm tra phạm vi “bảo hộ nhãn hiệu” không xuất hiện trong corpus tại thời điểm sinh dataset; hệ thống phải từ chối và không hiển thị citation."
+    },
+    {
+      "id": "OOS_008",
+      "enabled": true,
+      "category": "out_of_scope",
+      "question": "Điều kiện lập di chúc miệng hợp pháp theo Bộ luật Dân sự là gì?",
+      "expected_statuses": [
+        "refusal"
+      ],
+      "gold_answer": "",
+      "gold_citation_groups": [],
+      "answer_rubric": {
+        "required_facts": [],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "notes": "Cụm kiểm tra phạm vi “di chúc miệng” không xuất hiện trong corpus tại thời điểm sinh dataset; hệ thống phải từ chối và không hiển thị citation."
+    },
+    {
+      "id": "TEMPORAL_001",
+      "enabled": true,
+      "category": "temporal_aware",
+      "question": "Tại thời điểm 06/02/2025, theo nội dung sửa đổi tại Điều 24 > Khoản 1 > Điểm b trong văn bản 17-2025-ND-CP, quy định được xác định như thế nào?",
+      "as_of_date": "2025-02-06",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 24 > Khoản 1 > Điểm b: Kế hoạch lựa chọn nhà thầu được duyệt. Dự thảo hồ sơ mời thầu được lập sau khi kế hoạch lựa chọn nhà thầu được phê duyệt hoặc có thể được lập trong quá trình lập kế hoạch lựa chọn nhà thầu nhưng phải bảo đảm được phê duyệt sau khi kế hoạch lựa chọn nhà thầu được phê duyệt;;",
+      "gold_citation_groups": [
+        [
+          "17-2025-ND-CP#amd2k8pa.qt24.k1.pb"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "effective_version_fact",
+            "description": "Kế hoạch lựa chọn nhà thầu được duyệt. Dự thảo hồ sơ mời thầu được lập sau khi kế hoạch lựa chọn nhà thầu được phê duyệt hoặc có thể được lập trong quá trình lập kế hoạch lựa chọn nhà thầu nhưng phải bảo đảm được phê…",
+            "any_of": [
+              "Kế hoạch lựa chọn nhà thầu được duyệt. Dự thảo hồ sơ mời thầu"
+            ],
+            "patterns": [
+              "(?is)hoạch.*chọn.*thầu.*duyệt.*thảo"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "require_temporal_warning": false,
+      "notes": "Chunk sửa đổi có valid_from=2025-02-06; corpus không có phiên bản cũ cùng provision_key để tạo forbidden fact tự động."
+    },
+    {
+      "id": "TEMPORAL_002",
+      "enabled": true,
+      "category": "temporal_aware",
+      "question": "Tại thời điểm 16/06/2025, theo nội dung sửa đổi tại Khoản 1 trong văn bản 203-2025-QH15, quy định được xác định như thế nào?",
+      "as_of_date": "2025-06-16",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Khoản 1: Chủ tịch nước, Ủy ban thường vụ Quốc hội, Hội đồng dân tộc, Ủy ban của Quốc hội, Chính phủ, Tòa án nhân dân tối cao, Viện kiểm sát nhân dân tối cao, Kiểm toán nhà nước, Ủy ban trung ương Mặt trận Tổ quốc Việt Nam và cơ quan trung ương của tổ chức chính trị - xã hội có quyền trình dự án luật trước Quốc hội, trình dự án pháp lệnh trước Ủy ban thường vụ Quốc hội.;",
+      "gold_citation_groups": [
+        [
+          "203-2025-QH15#amd1.qt0.k1"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "effective_version_fact",
+            "description": "Chủ tịch nước, Ủy ban thường vụ Quốc hội, Hội đồng dân tộc, Ủy ban của Quốc hội, Chính phủ, Tòa án nhân dân tối cao, Viện kiểm sát nhân dân tối cao, Kiểm toán nhà nước, Ủy ban trung ương Mặt trận Tổ quốc Việt Nam và cơ…",
+            "any_of": [
+              "Chủ tịch nước, Ủy ban thường vụ Quốc hội, Hội đồng dân tộc, Ủy"
+            ],
+            "patterns": [
+              "(?is)tịch.*nước.*thường.*quốc.*đồng"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "require_temporal_warning": false,
+      "notes": "Chunk sửa đổi có valid_from=2025-06-16; corpus không có phiên bản cũ cùng provision_key để tạo forbidden fact tự động."
+    },
+    {
+      "id": "TEMPORAL_003",
+      "enabled": true,
+      "category": "temporal_aware",
+      "question": "Tại thời điểm 01/07/2026, theo nội dung sửa đổi tại Luật sửa đổi, bổ sung một số điều của 10 Luật có liên quan đến an ninh, trật tự > Điều 52a. Đầu tư mở rộng trạm dừng nghỉ đã ký hợp đồng kinh doanh, khai thác > Khoản 2 trong văn bản 241-2026-ND-CP, quy định được xác định như thế nào?",
+      "as_of_date": "2026-07-01",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Luật sửa đổi, bổ sung một số điều của 10 Luật có liên quan đến an ninh, trật tự > Điều 52a. Đầu tư mở rộng trạm dừng nghỉ đã ký hợp đồng kinh doanh, khai thác > Khoản 2: Cơ quan có thẩm quyền tổ chức xác định sơ bộ nhu cầu và đàm phán với nhà đầu tư, doanh nghiệp đang đầu tư, khai thác trạm dừng nghỉ về phương án đầu tư mở rộng trạm dừng nghỉ. Trường hợp nhà đầu tư, doanh nghiệp đang đầu tư, khai thác trạm dừng nghỉ thực hiện mở rộng trạm dừng nghỉ thì phải nộp giá trị nhận nhượng quyền kinh doanh xác định theo quy định tại điểm a khoản 3 Điều 56 Nghị định này bằng hình thức nộp tiền một lần vào ngân sách nhà nước.",
+      "gold_citation_groups": [
+        [
+          "241-2026-ND-CP#amd21.qt52a.k2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "effective_version_fact",
+            "description": "Cơ quan có thẩm quyền tổ chức xác định sơ bộ nhu cầu và đàm phán với nhà đầu tư, doanh nghiệp đang đầu tư, khai thác trạm dừng nghỉ về phương án đầu tư mở rộng trạm dừng nghỉ. Trường hợp nhà đầu tư, doanh nghiệp đang…",
+            "any_of": [
+              "Cơ quan có thẩm quyền tổ chức xác định sơ bộ nhu cầu và"
+            ],
+            "patterns": [
+              "(?is)quan.*thẩm.*quyền.*chức.*phán"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "require_temporal_warning": false,
+      "notes": "Chunk sửa đổi có valid_from=2026-07-01; corpus không có phiên bản cũ cùng provision_key để tạo forbidden fact tự động."
+    },
+    {
+      "id": "TEMPORAL_004",
+      "enabled": true,
+      "category": "temporal_aware",
+      "question": "Tại thời điểm 15/01/2025, theo nội dung sửa đổi tại Luật Đấu thầu > Điều 42. Đấu thầu trước > Điểm b trong văn bản 57-2024-QH15, quy định được xác định như thế nào?",
+      "as_of_date": "2025-01-15",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Luật Đấu thầu > Điều 42. Đấu thầu trước > Điểm b: Gói thầu cung cấp dịch vụ tư vấn, phi tư vấn, hàng hóa, xây lắp phục vụ công tác đền bù, giải phóng mặt bằng, di dời công trình hạ tầng, kỹ thuật, rà phá bom mìn, vật nổ, quy hoạch, tái định cư;",
+      "gold_citation_groups": [
+        [
+          "57-2024-QH15#amd4k14.qt42.pb"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "effective_version_fact",
+            "description": "Gói thầu cung cấp dịch vụ tư vấn, phi tư vấn, hàng hóa, xây lắp phục vụ công tác đền bù, giải phóng mặt bằng, di dời công trình hạ tầng, kỹ thuật, rà phá bom mìn, vật nổ, quy hoạch, tái định cư",
+            "any_of": [
+              "Gói thầu cung cấp dịch vụ tư vấn, phi tư vấn, hàng hóa, xây"
+            ],
+            "patterns": [
+              "(?is)thầu.*cung.*dịch.*hàng.*phục"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "require_temporal_warning": false,
+      "notes": "Chunk sửa đổi có valid_from=2025-01-15; corpus không có phiên bản cũ cùng provision_key để tạo forbidden fact tự động."
+    },
+    {
+      "id": "TEMPORAL_005",
+      "enabled": true,
+      "category": "temporal_aware",
+      "question": "Tại thời điểm 01/07/2026, theo nội dung sửa đổi tại Điều 94 > Khoản 3 > Điểm b trong văn bản 96-2026-ND-CP, quy định được xác định như thế nào?",
+      "as_of_date": "2026-07-01",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 94 > Khoản 3 > Điểm b: Báo cáo về tình hình tiếp nhận, cấp, điều chỉnh, thu hồi Giấy chứng nhận đăng ký đầu tư, tình hình hoạt động của các dự án đầu tư thuộc phạm vi quản lý hằng quý theo quy định tại điểm b khoản 2 Điều 47 Luật Đầu tư..",
+      "gold_citation_groups": [
+        [
+          "96-2026-ND-CP#amd99k6pb.qt94.k3.pb"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "effective_version_fact",
+            "description": "Báo cáo về tình hình tiếp nhận, cấp, điều chỉnh, thu hồi Giấy chứng nhận đăng ký đầu tư, tình hình hoạt động của các dự án đầu tư thuộc phạm vi quản lý hằng quý theo quy định tại điểm b khoản 2 Điều 47 Luật Đầu tư",
+            "any_of": [
+              "Báo cáo về tình hình tiếp nhận, cấp, điều chỉnh, thu hồi Giấy chứng"
+            ],
+            "patterns": [
+              "(?is)tình.*hình.*tiếp.*nhận.*chỉnh"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "require_temporal_warning": false,
+      "notes": "Chunk sửa đổi có valid_from=2026-07-01; corpus không có phiên bản cũ cùng provision_key để tạo forbidden fact tự động."
+    },
+    {
+      "id": "TEMPORAL_006",
+      "enabled": true,
+      "category": "temporal_aware",
+      "question": "Tại thời điểm 06/02/2025, theo nội dung sửa đổi tại Điều 20 > Khoản 1 trong văn bản 17-2025-ND-CP, quy định được xác định như thế nào?",
+      "as_of_date": "2025-02-06",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Điều 20 > Khoản 1: Các thông tin về lựa chọn nhà thầu được đăng tải công khai trên Hệ thống mạng đấu thầu quốc gia. Chủ đầu tư có trách nhiệm đăng tải thông tin về nhà thầu vi phạm, nhà thầu không bảo đảm uy tín khi tham dự thầu, nhà thầu bị chấm dứt hợp đồng do lỗi của nhà thầu, nhà thầu bị cấm tham gia hoạt động đấu thầu theo quy định của pháp luật đấu thầu trên Hệ thống mạng đấu thầu quốc gia. Trường hợp cần sửa đổi các thông tin này, chủ đầu tư thực hiện sửa đổi, đính kèm quyết định sửa đổi, nêu rõ lý do sửa đổi và chịu trách nhiệm về các thông tin sửa đổi..",
+      "gold_citation_groups": [
+        [
+          "17-2025-ND-CP#amd2k6.qt20.k1"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "effective_version_fact",
+            "description": "Các thông tin về lựa chọn nhà thầu được đăng tải công khai trên Hệ thống mạng đấu thầu quốc gia. Chủ đầu tư có trách nhiệm đăng tải thông tin về nhà thầu vi phạm, nhà thầu không bảo đảm uy tín khi tham dự thầu, nhà thầu…",
+            "any_of": [
+              "Các thông tin về lựa chọn nhà thầu được đăng tải công khai trên"
+            ],
+            "patterns": [
+              "(?is)thông.*chọn.*thầu.*đăng.*công"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "require_temporal_warning": false,
+      "notes": "Chunk sửa đổi có valid_from=2025-02-06; corpus không có phiên bản cũ cùng provision_key để tạo forbidden fact tự động."
+    },
+    {
+      "id": "TEMPORAL_007",
+      "enabled": true,
+      "category": "temporal_aware",
+      "question": "Tại thời điểm 01/07/2026, theo nội dung sửa đổi tại Luật sửa đổi, bổ sung một số điều của 10 Luật có liên quan đến an ninh, trật tự > Điều 7. Điều chỉnh loại đường theo cấp quản lý > Điểm c trong văn bản 241-2026-ND-CP, quy định được xác định như thế nào?",
+      "as_of_date": "2026-07-01",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Luật sửa đổi, bổ sung một số điều của 10 Luật có liên quan đến an ninh, trật tự > Điều 7. Điều chỉnh loại đường theo cấp quản lý > Điểm c: Trả kết quả giải quyết thủ tục hành chính cho cơ quan, tổ chức bằng bản điện tử hợp lệ. 5. Việc điều chuyển tài sản kết cấu hạ tầng đường bộ sau khi có quyết định điều chỉnh loại đường của cơ quan, người có thẩm quyền theo quy định của pháp luật về đường bộ được thực hiện theo quy định của pháp luật về quản lý, sử dụng tài sản công..",
+      "gold_citation_groups": [
+        [
+          "241-2026-ND-CP#amd3.qt7.pc"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "effective_version_fact",
+            "description": "Trả kết quả giải quyết thủ tục hành chính cho cơ quan, tổ chức bằng bản điện tử hợp lệ. 5. Việc điều chuyển tài sản kết cấu hạ tầng đường bộ sau khi có quyết định điều chỉnh loại đường của cơ quan, người có thẩm quyền…",
+            "any_of": [
+              "Trả kết quả giải quyết thủ tục hành chính cho cơ quan, tổ chức"
+            ],
+            "patterns": [
+              "(?is)giải.*quyết.*hành.*quan.*chức"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "require_temporal_warning": false,
+      "notes": "Chunk sửa đổi có valid_from=2026-07-01; corpus không có phiên bản cũ cùng provision_key để tạo forbidden fact tự động."
+    },
+    {
+      "id": "TEMPORAL_008",
+      "enabled": true,
+      "category": "temporal_aware",
+      "question": "Tại thời điểm 15/01/2025, theo nội dung sửa đổi tại Luật Đầu tư theo phương thức đối tác công tư > Điều 11 > Khoản 2a > Điểm đ trong văn bản 57-2024-QH15, quy định được xác định như thế nào?",
+      "as_of_date": "2025-01-15",
+      "expected_statuses": [
+        "full_answer"
+      ],
+      "gold_answer": "Luật Đầu tư theo phương thức đối tác công tư > Điều 11 > Khoản 2a > Điểm đ: Triển khai thực hiện hợp đồng dự án; tổ chức giám sát quá trình xây dựng, thi công công trình, nghiệm thu công trình hoàn thành theo quy định của pháp luật về xây dựng như quy định đối với dự án đầu tư công. Dự án quy định tại khoản này không phải lựa chọn nhà đầu tư theo quy định tại Chương III và không phải thực hiện nội dung liên quan đến triển khai thực hiện hợp đồng dự án tại các điều 53, 54, 55, 58, 59, 61, 62, 63, 64, 65 và 66 của Luật này.;",
+      "gold_citation_groups": [
+        [
+          "57-2024-QH15#amd3k4pb.qt11.k2a.pđ-2"
+        ]
+      ],
+      "answer_rubric": {
+        "required_facts": [
+          {
+            "fact_id": "effective_version_fact",
+            "description": "Triển khai thực hiện hợp đồng dự án; tổ chức giám sát quá trình xây dựng, thi công công trình, nghiệm thu công trình hoàn thành theo quy định của pháp luật về xây dựng như quy định đối với dự án đầu tư công. Dự án quy…",
+            "any_of": [
+              "Triển khai thực hiện hợp đồng dự án; tổ chức giám sát quá trình"
+            ],
+            "patterns": [
+              "(?is)triển.*khai.*hiện.*đồng.*chức"
+            ]
+          }
+        ],
+        "forbidden_facts": [],
+        "minimum_fact_coverage": 1.0
+      },
+      "require_temporal_warning": false,
+      "notes": "Chunk sửa đổi có valid_from=2025-01-15; corpus không có phiên bản cũ cùng provision_key để tạo forbidden fact tự động."
+    }
+  ]
+}
