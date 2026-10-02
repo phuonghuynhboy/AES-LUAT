@@ -65,7 +65,10 @@ def _response_cache_payload(
 def _call_live_rag(case: dict[str, Any]) -> tuple[dict[str, Any] | None, float, str | None]:
     started_at = perf_counter()
     try:
-        response = answer_question(case["question"])
+        response = answer_question(
+            case["question"],
+            as_of=case.get("as_of_date"),
+        )
         latency_seconds = perf_counter() - started_at
         if not isinstance(response, dict):
             raise TypeError("RAG response phải là JSON object/dict.")
