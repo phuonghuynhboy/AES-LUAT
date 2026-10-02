@@ -40,6 +40,7 @@ export const ChatInput = ({ value, onChange, onSend, isLoading }: ChatInputProps
           ref={textareaRef}
           rows={1}
           value={value}
+          maxLength={10000}
           onChange={resizeTextarea}
           onKeyDown={handleKeyDown}
           placeholder="Mô tả vấn đề pháp lý bạn đang quan tâm..."
@@ -70,6 +71,10 @@ export const ChatInput = ({ value, onChange, onSend, isLoading }: ChatInputProps
           <path d="M6.5 8V6.5a3.5 3.5 0 0 1 7 0V8M5 8h10v8H5V8Z" />
         </svg>
         Nội dung trao đổi chỉ được lưu trong phiên hiện tại
+      </p>
+      <p className="legal-disclaimer">
+        Kết quả chỉ nhằm hỗ trợ tra cứu. Hãy đối chiếu văn bản gốc hoặc tham
+        khảo người có chuyên môn trước khi áp dụng.
       </p>
     </div>
   );

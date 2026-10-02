@@ -1272,6 +1272,14 @@ textarea:focus-visible {
   stroke-linejoin: round;
 }
 
+.legal-disclaimer {
+  margin: 6px auto 0;
+  color: #6a5140;
+  font-size: 11px;
+  line-height: 1.45;
+  text-align: center;
+}
+
 @keyframes typing {
   0%,
   60%,
