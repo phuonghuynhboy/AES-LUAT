@@ -5,6 +5,7 @@ from typing import TypedDict
 
 class RAGState(TypedDict):
     question: str
+    as_of: str | None
     retrieved: list[dict]
     claims: list[dict]
     verified_claims: list[dict]

@@ -174,7 +174,7 @@ def build_response_sources(
     return sources, retrieved_sources
 
 
-def answer_question(question: str) -> dict:
+def answer_question(question: str, as_of: str | None = None) -> dict:
     """Entry point chính cho FastAPI/backend."""
     global _compiled_graph
 
@@ -196,6 +196,7 @@ def answer_question(question: str) -> dict:
     final_state = _compiled_graph.invoke(
         {
             "question": question,
+            "as_of": as_of,
             "retrieved": [],
             "claims": [],
             "verified_claims": [],

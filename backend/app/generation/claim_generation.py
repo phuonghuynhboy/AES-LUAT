@@ -17,7 +17,21 @@ def truncate_text(text: str, max_chars: int) -> str:
     normalized = re.sub(r"\s+", " ", text or "").strip()
     if len(normalized) <= max_chars:
         return normalized
-    return normalized[:max_chars].rstrip() + "..."
+    candidate = normalized[:max_chars].rstrip()
+    # Ưu tiên cắt ở ranh giới câu/ý, tránh cắt giữa một mệnh đề pháp lý.
+    minimum_boundary = int(max_chars * 0.6)
+    boundaries = [
+        candidate.rfind(mark, minimum_boundary)
+        for mark in (". ", "; ", ": ", "? ", "! ")
+    ]
+    boundary = max(boundaries, default=-1)
+    if boundary >= minimum_boundary:
+        candidate = candidate[: boundary + 1].rstrip()
+    else:
+        whitespace = candidate.rfind(" ", minimum_boundary)
+        if whitespace >= minimum_boundary:
+            candidate = candidate[:whitespace].rstrip()
+    return candidate + "..."
 
 
 def build_context(retrieved: list[dict]) -> str:

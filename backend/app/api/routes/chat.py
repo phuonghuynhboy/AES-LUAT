@@ -12,4 +12,5 @@ router = APIRouter(prefix="/api", tags=["chat"])
 @router.post("/chat", response_model=ChatResponse)
 def chat(request: ChatRequest) -> ChatResponse:
     """Run the existing RAG entry point without duplicating pipeline logic."""
-    return ChatResponse.model_validate(answer_question(request.question))
+    as_of = request.as_of.isoformat() if request.as_of else None
+    return ChatResponse.model_validate(answer_question(request.question, as_of=as_of))

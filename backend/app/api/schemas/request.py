@@ -1,5 +1,7 @@
 """Validated request models for the public chat API."""
 
+from datetime import date
+
 from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 
@@ -7,6 +9,7 @@ class ChatRequest(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
     question: str = Field(min_length=1, max_length=10_000)
+    as_of: date | None = None
 
     @field_validator("question")
     @classmethod

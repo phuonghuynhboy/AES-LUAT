@@ -24,9 +24,11 @@ GRAPH_CONFIG: dict[str, Any] = {
     # Chỉ lưu TÊN biến môi trường, tuyệt đối không lưu giá trị API key tại đây.
     "gemini_api_key_env": "GEMINI_API_KEY",
     "temperature": 0.0,
-    "retrieve_top_n": 2,
-    "max_context_chars": 2500,
-    "max_chunk_chars": 800,
+    # Mặc định lấy đủ số nguồn mà retriever đã thiết kế để trả về. Các biến môi
+    # trường giúp chạy sweep 2/4/6/8 mà không sửa mã giữa các benchmark.
+    "retrieve_top_n": int(os.getenv("RAG_RETRIEVE_TOP_N", "8")),
+    "max_context_chars": int(os.getenv("RAG_MAX_CONTEXT_CHARS", "20000")),
+    "max_chunk_chars": int(os.getenv("RAG_MAX_CHUNK_CHARS", "2000")),
     "max_output_tokens": 2048,
     "max_retries": 3,
     "retry_backoff_base_sec": 2.0,
